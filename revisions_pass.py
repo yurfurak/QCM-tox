@@ -1594,6 +1594,396 @@ questions = questions = questions = [
         },
         "correctes": ["A", "B", "D", "E"],
         "explication": "C est Faux : L'épigénétique est potentiellement réversible (c'est l'espoir des thérapies), contrairement à la séquence d'ADN pure."
+    },# --- PARTIE 5 : DROGUES, TOXICOLOGIE & PRISE EN CHARGE ---
+    {
+        "titre": "Le Cannabis (Pharmacologie)",
+        "type": "vraies",
+        "items": {
+            "A": "Le THC est le principal responsable des effets psychoactifs.",
+            "B": "Les récepteurs CB1 sont situés principalement en périphérie (système immunitaire).",
+            "C": "Les récepteurs CB2 sont situés principalement dans le système nerveux central.",
+            "D": "Le THC a une demi-vie très courte (quelques minutes).",
+            "E": "Le THC est très lipophile et se stocke dans les graisses."
+        },
+        "correctes": ["A", "E"],
+        "explication": "B et C sont Faux : C'est l'inverse ! CB1 = Central (Cerveau), CB2 = Périphérique (Immunité). D est Faux : Demi-vie longue (44-60h) et relargage tardif."
+    },
+    {
+        "titre": "Cannabis et Dépistage (Permis)",
+        "type": "vraies",
+        "items": {
+            "A": "On peut retrouver du cannabis dans les urines jusqu'à 3 semaines après l'arrêt chez un gros fumeur.",
+            "B": "Un test urinaire positif prouve une ivresse cannabique au moment du contrôle.",
+            "C": "Seul le dosage sanguin prouve l'emprise immédiate.",
+            "D": "Le cannabis n'est pas considéré comme un produit dopant.",
+            "E": "La médecine du travail peut dépister le cannabis à l'embauche."
+        },
+        "correctes": ["A", "C", "E"],
+        "explication": "B est Faux : Les urines marquent l'usage passé (métabolites), pas l'état actuel. D est Faux : C'est un dopant interdit en compétition (gardiens de but, etc.)."
+    },
+    {
+        "titre": "Cocaïne et Crack",
+        "type": "vraies",
+        "items": {
+            "A": "La cocaïne inhibe la recapture de la dopamine, noradrénaline et sérotonine.",
+            "B": "Le Crack est obtenu en mélangeant la cocaïne avec du bicarbonate ou de l'ammoniaque.",
+            "C": "Le Crack se consomme par injection intraveineuse uniquement.",
+            "D": "Les effets du Crack sont plus lents à apparaître que ceux de la cocaïne sniffée.",
+            "E": "Le risque cardiovasculaire (infarctus) est majeur."
+        },
+        "correctes": ["A", "B", "E"],
+        "explication": "C est Faux : Le Crack se fume (inhalation des vapeurs) ou s'injecte. D est Faux : Les effets du Crack/fumé sont fulgurants (5-10 secondes), plus rapides que le sniff ou l'IV."
+    },
+    {
+        "titre": "Opiacés (Pharmacologie)",
+        "type": "vraies",
+        "items": {
+            "A": "L'activation des récepteurs Mu entraîne analgésie et dépression respiratoire.",
+            "B": "L'activation des récepteurs Kappa entraîne une mydriase (pupilles dilatées).",
+            "C": "L'héroïne est un dépresseur du système nerveux central.",
+            "D": "L'antidote en cas de surdosage (overdose) est la Naloxone.",
+            "E": "Le myosis (pupilles serrées) est un signe d'imprégnation opiacée."
+        },
+        "correctes": ["A", "C", "D", "E"],
+        "explication": "B est Faux : Les opiacés (Mu et Kappa) entraînent un MYOSIS (pupilles en tête d'épingle). La mydriase est liée au manque ou aux récepteurs Delta (agitation)."
+    },
+    {
+        "titre": "Traitements de substitution aux opiacés (TSO)",
+        "type": "vraies",
+        "items": {
+            "A": "La Méthadone est un agoniste pur des récepteurs Mu.",
+            "B": "La Buprénorphine (Subutex) est un agoniste partiel Mu et antagoniste Kappa.",
+            "C": "Ces traitements doivent être injectés pour être efficaces.",
+            "D": "Le Suboxone associe Buprénorphine + Naloxone pour éviter le détournement par injection.",
+            "E": "La Méthadone ne peut pas entraîner de dépendance."
+        },
+        "correctes": ["A", "B", "D"],
+        "explication": "C est Faux : Ils s'administrent par voie ORALE (sirop, comprimé). E est Faux : La méthadone entraîne une forte dépendance physique, mais elle est contrôlée et stabilise le patient."
+    },
+    {
+        "titre": "Définitions (Pharmakon & Addiction)",
+        "type": "vraies",
+        "items": {
+            "A": "Pharmakon signifie à la fois remède et poison.",
+            "B": "L'addiction est définie uniquement par la quantité consommée.",
+            "C": "L'addiction est la perte de contrôle de l'usage malgré les conséquences négatives.",
+            "D": "La dépendance physique suffit à définir l'addiction.",
+            "E": "Le terme drogue désigne toute substance modifiant l'activité neuronale (SPA)."
+        },
+        "correctes": ["A", "C", "E"],
+        "explication": "B est Faux : La quantité n'est pas le critère principal (cf DSM-5). D est Faux : On peut être dépendant physiquement (ex: traitement morphine) sans être addict (pas de perte de contrôle/craving)."
+    },
+    {
+        "titre": "Critères DSM-5 (Sévérité)",
+        "type": "fausses",
+        "items": {
+            "A": "Il y a 11 critères diagnostiques.",
+            "B": "Présence de 2 à 3 critères = Addiction faible.",
+            "C": "Présence de 4 à 5 critères = Addiction modérée.",
+            "D": "Présence de 6 critères ou plus = Addiction sévère.",
+            "E": "Une addiction sévère nécessite obligatoirement 10 critères."
+        },
+        "correctes": ["E"],
+        "explication": "E est Faux : Dès 6 critères, l'addiction est classée comme sévère."
+    },
+    {
+        "titre": "Alcool et Neurobiologie",
+        "type": "vraies",
+        "items": {
+            "A": "L'alcool est un dépresseur du système nerveux central.",
+            "B": "En chronique, le cerveau développe une hyperexcitabilité (neuroadaptation).",
+            "C": "Le sevrage brutal peut entraîner des crises convulsives.",
+            "D": "L'alcool agit principalement en stimulant le système Glutamate.",
+            "E": "L'alcool agit en stimulant le système GABA (inhibiteur)."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "D est Faux : L'alcool STIMULE le GABA (inhibiteur) et INHIBE le Glutamate (excitateur). En chronique, le cerveau compense en augmentant le Glutamate, d'où l'hyperexcitabilité au sevrage."
+    },
+    {
+        "titre": "Interactions Alcool-Médicaments",
+        "type": "vraies",
+        "items": {
+            "A": "L'alcool potentialise l'effet sédatif des benzodiazépines.",
+            "B": "L'alcool augmente le risque d'hémorragie avec les AVK (anticoagulants).",
+            "C": "L'alcool peut provoquer un effet antabuse avec certains antibiotiques.",
+            "D": "L'alcool annule l'effet retard (LP) de certaines formes galéniques (Dose Dumping).",
+            "E": "L'alcool diminue le risque d'hypoglycémie chez le diabétique."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : L'alcool AUGMENTE le risque d'hypoglycémie (inhibition néoglucogenèse)."
+    },
+    {
+        "titre": "Traitements de l'alcoolodépendance",
+        "type": "vraies",
+        "items": {
+            "A": "Les Benzodiazépines sont utilisées pour le sevrage (prévention Delirium Tremens).",
+            "B": "L'Acamprosate aide au maintien de l'abstinence (balance GABA/Glutamate).",
+            "C": "Le Baclofène est un agoniste GABA-B utilisé pour réduire le craving.",
+            "D": "Le Disulfiram est le traitement de première intention aujourd'hui.",
+            "E": "La Naltrexone bloque les récepteurs opioïdes pour réduire le plaisir de boire."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "D est Faux : Le Disulfiram (effet antabuse violent) est très peu utilisé car dangereux si re-consommation."
+    },
+    {
+        "titre": "Tabac et Chicha",
+        "type": "vraies",
+        "items": {
+            "A": "Le tabac est la première cause de mortalité évitable.",
+            "B": "Une session de chicha équivaut à fumer 1 ou 2 cigarettes.",
+            "C": "La chicha délivre beaucoup plus de monoxyde de carbone (CO) que la cigarette.",
+            "D": "La nicotine agit sur les récepteurs nicotiniques cholinergiques.",
+            "E": "Le Snus est un sachet de tabac à sucer (gencive)."
+        },
+        "correctes": ["A", "C", "D", "E"],
+        "explication": "B est Faux : Une session de chicha équivaut à 20-25 cigarettes (voire plus en volume de fumée et CO)."
+    },
+    {
+        "titre": "Nouvelles drogues et pratiques",
+        "type": "vraies",
+        "items": {
+            "A": "Le Purple Drank est un mélange de codéine et d'antihistaminique.",
+            "B": "Le Protoxyde d'azote est sans danger neurologique.",
+            "C": "Le GHB provoque une amnésie antérograde (drogue du violeur).",
+            "D": "La Kétamine peut provoquer des troubles urinaires graves.",
+            "E": "Les Cathinones de synthèse miment les effets de la cocaïne/MDMA."
+        },
+        "correctes": ["A", "C", "D", "E"],
+        "explication": "B est Faux : Le Protoxyde d'azote provoque des atteintes neurologiques graves (myélite, sclérose) par carence en Vitamine B12."
+    },
+    {
+        "titre": "Score de Cushman (Alcool)",
+        "type": "fausses",
+        "items": {
+            "A": "Il évalue l'intensité du syndrome de sevrage alcoolique.",
+            "B": "Il prend en compte le pouls et la pression artérielle.",
+            "C": "Il prend en compte les tremblements et les sueurs.",
+            "D": "Un score élevé indique un sevrage léger.",
+            "E": "Il prend en compte l'agitation et les troubles sensoriels."
+        },
+        "correctes": ["D"],
+        "explication": "D est Faux : Un score élevé (>15) indique un sevrage SÉVÈRE avec risque de Delirium Tremens."
+    },
+    {
+        "titre": "Comorbidités et Pathologies Duelles",
+        "type": "vraies",
+        "items": {
+            "A": "Une pathologie duelle associe une addiction et un trouble psychiatrique.",
+            "B": "50% des patients addicts ont une pathologie duelle.",
+            "C": "Le TDAH est rarement associé aux addictions.",
+            "D": "Les troubles du comportement alimentaire (TCA) sont considérés comme des addictions.",
+            "E": "L'alcoolisme peut induire une dépression."
+        },
+        "correctes": ["A", "B", "D", "E"],
+        "explication": "C est Faux : 20% des patients en addictologie ont un TDAH, c'est une comorbidité fréquente."
+    },
+    {
+        "titre": "Arbre des dépendances (Concept)",
+        "type": "vraies",
+        "items": {
+            "A": "Les branches représentent les objets d'addiction (alcool, jeu, tabac...).",
+            "B": "Les racines représentent le terrain (génétique, trauma, éducation).",
+            "C": "Couper une branche (arrêter un produit) suffit à guérir l'addiction.",
+            "D": "Il faut traiter le sol et les racines pour éviter le déplacement de l'addiction.",
+            "E": "Une personne peut avoir plusieurs addictions (plusieurs branches)."
+        },
+        "correctes": ["A", "B", "D", "E"],
+        "explication": "C est Faux : Si on ne traite pas le fond (racines), une autre addiction remplacera la première."
+    },
+    {
+        "titre": "Conséquences somatiques de l'alcool (Recherchez les ERREURS)",
+        "type": "fausses",
+        "items": {
+            "A": "Pancréatite chronique calcifiante.",
+            "B": "Varices œsophagiennes.",
+            "C": "Rhinophyma (gros nez rouge).",
+            "D": "Maladie de Dupuytren (rétraction des doigts).",
+            "E": "Hypertrophie des testicules."
+        },
+        "correctes": ["E"],
+        "explication": "E est Faux : L'alcool entraîne une atrophie testiculaire et une féminisation (gynécomastie)."
+    },
+    {
+        "titre": "Traitement de la Cocaïne",
+        "type": "vraies",
+        "items": {
+            "A": "Il existe un traitement de substitution officiel pour la cocaïne.",
+            "B": "La N-acétylcystéine à forte dose a montré une certaine efficacité.",
+            "C": "Le Topiramate (antiépileptique) est parfois utilisé.",
+            "D": "La prise en charge repose beaucoup sur la psychothérapie.",
+            "E": "Le sevrage de la cocaïne est physiquement mortel (comme l'alcool)."
+        },
+        "correctes": ["B", "C", "D"],
+        "explication": "A est Faux : Aucun traitement de substitution validé. E est Faux : Le sevrage cocaïne est épuisant (crash) et dépressif, mais rarement mortel physiquement, contrairement au sevrage alcool/BZD."
+    },
+    {
+        "titre": "Benzodiazépines et Demi-vies",
+        "type": "vraies",
+        "items": {
+            "A": "Les BZD à demi-vie courte sont plus addictogènes (effet pic).",
+            "B": "Le Seresta (Oxazépam) a une demi-vie rapide/courte.",
+            "C": "Le Prazépam (Lysanxia) a une demi-vie longue.",
+            "D": "On utilise les BZD à demi-vie longue pour le sevrage dégressif.",
+            "E": "L'effet 'toit d'usine' favorise l'accrochage."
+        },
+        "correctes": ["A", "B", "C", "D", "E"],
+        "explication": "Tout est vrai. On préfère les molécules à demi-vie longue pour le sevrage afin de lisser les taux plasmatiques."
+    },
+    {
+        "titre": "Héroïne vs Méthadone (Pharmacocinétique)",
+        "type": "vraies",
+        "items": {
+            "A": "L'héroïne a une demi-vie courte et un effet flash.",
+            "B": "La méthadone a une demi-vie longue (24h et plus).",
+            "C": "La méthadone provoque des variations brutales de la concentration plasmatique.",
+            "D": "Le but de la méthadone est de supprimer le manque sans donner d'euphorie.",
+            "E": "L'héroïne s'injecte, la méthadone se boit."
+        },
+        "correctes": ["A", "B", "D", "E"],
+        "explication": "C est Faux : La méthadone donne un plateau stable, ce qui permet la réinsertion sociale, contrairement aux pics/vallées de l'héroïne."
+    },
+    {
+        "titre": "Statistiques France (Ordres de grandeur)",
+        "type": "fausses",
+        "items": {
+            "A": "47 millions de français boivent de l'alcool.",
+            "B": "13 millions de fumeurs quotidiens.",
+            "C": "L'héroïne est la drogue la plus consommée.",
+            "D": "Le cannabis compte environ 1 million d'usagers quotidiens.",
+            "E": "La cocaïne compte environ 600 000 usagers annuels (chiffre en hausse)."
+        },
+        "correctes": ["C"],
+        "explication": "C est Faux : L'héroïne a un marché très faible (50 000 à 600 000 selon les sources, mais bien moins que Cannabis/Cocaine). C'est le Cannabis la drogue illicite la plus consommée."
+    },
+    {
+        "titre": "Syndrome d'alcoolisme fœtal",
+        "type": "vraies",
+        "items": {
+            "A": "Il est la première cause de handicap mental non génétique.",
+            "B": "Il se voit par une dysmorphie faciale (oreilles basses, philtrum lisse).",
+            "C": "Il n'y a aucun risque durant le dernier trimestre de grossesse.",
+            "D": "L'alcool est tératogène.",
+            "E": "Toute consommation d'alcool est proscrite pendant la grossesse."
+        },
+        "correctes": ["A", "B", "D", "E"],
+        "explication": "C est Faux : Le cerveau se développe jusqu'à la fin, l'alcool est toxique tout le temps."
+    },
+    {
+        "titre": "Neuromédiateurs de l'addiction",
+        "type": "vraies",
+        "items": {
+            "A": "Dopamine = Plaisir, Récompense.",
+            "B": "Sérotonine = Régulation de l'humeur, Impulsivité, Compulsion.",
+            "C": "Noradrénaline = Vigilance, Énergie.",
+            "D": "L'addiction entraîne un découplage entre Sérotonine et Noradrénaline.",
+            "E": "Le manque de produit restaure immédiatement l'équilibre."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : Le manque crée une souffrance et le déséquilibre persiste longtemps, poussant à la rechute."
+    },
+    {
+        "titre": "Ecstasy (MDMA)",
+        "type": "vraies",
+        "items": {
+            "A": "C'est un psychostimulant et un perturbateur.",
+            "B": "Elle favorise la libération massive de sérotonine.",
+            "C": "Elle est souvent consommée en milieu festif.",
+            "D": "Elle ne présente aucun risque de déshydratation.",
+            "E": "La 'descente' peut s'accompagner d'une dépression passagère."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "D est Faux : Risque majeur de déshydratation et d'hyperthermie en milieu festif."
+    },
+    {
+        "titre": "Sevrage alcoolique (Formes)",
+        "type": "vraies",
+        "items": {
+            "A": "Forme mineure : tremblements, anxiété, sueurs.",
+            "B": "Forme moyenne : halluicinations (zoopsies), confusion.",
+            "C": "Delirium Tremens : Urgence vitale, hyperthermie, agitation majeure.",
+            "D": "Le Delirium Tremens a une mortalité spontanée élevée (sans traitement).",
+            "E": "Les crises d'épilepsie surviennent toujours après le Delirium."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : Les crises (Grand Mal) surviennent souvent au début du sevrage (24-48h), parfois avant le DT."
+    },
+    {
+        "titre": "Calculs Alcoolémie (Cas pratique)",
+        "type": "vraies",
+        "items": {
+            "A": "Un verre standard fait monter l'alcoolémie d'environ 0,20 à 0,25 g/L.",
+            "B": "Il faut environ 1h30 à 2h pour éliminer un verre d'alcool.",
+            "C": "Le taux d'élimination est d'environ 0,15 g/L par heure.",
+            "D": "Manger gras avant de boire annule l'alcoolémie.",
+            "E": "La formule de calcul prend en compte le degré et le volume."
+        },
+        "correctes": ["A", "C", "E"],
+        "explication": "B est Faux : Il faut environ 1h pour éliminer un verre (0,15 à 0,20 g/L éliminés par heure). D est Faux : Ça ralentit l'absorption (pic moins haut) mais n'annule pas la quantité d'alcool."
+    },
+    {
+        "titre": "Cocaïne et alcool (Cocaéthylène)",
+        "type": "vraies",
+        "items": {
+            "A": "Le mélange forme un métabolite spécifique : le Cocaéthylène.",
+            "B": "Ce composé est moins toxique que la cocaïne seule.",
+            "C": "Ce composé est plus cardiotoxique.",
+            "D": "Ce composé a une demi-vie plus longue.",
+            "E": "C'est une interaction dangereuse."
+        },
+        "correctes": ["A", "C", "D", "E"],
+        "explication": "B est Faux : Le cocaéthylène est BEAUCOUP plus toxique pour le cœur."
+    },
+    {
+        "titre": "Substances et Récepteurs (Quiz)",
+        "type": "vraies",
+        "items": {
+            "A": "Nicotine -> Récepteurs nicotiniques à l'acétylcholine.",
+            "B": "Cannabis -> Récepteurs CB1 et CB2.",
+            "C": "Alcool -> Agoniste GABA et Antagoniste NMDA (Glutamate).",
+            "D": "Opiacés -> Récepteurs Mu, Kappa, Delta.",
+            "E": "Cocaïne -> Agoniste des récepteurs GABA."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : La cocaïne bloque la recapture des monoamines (DA, NA, 5HT), elle n'agit pas directement sur le GABA."
+    },
+    {
+        "titre": "Marqueurs biologiques spécifiques",
+        "type": "vraies",
+        "items": {
+            "A": "CDT (Transferrine déficiente en carbohydrate) pour l'alcool chronique.",
+            "B": "VGM et Gamma-GT pour l'alcool (moins spécifiques).",
+            "C": "Cotinine urinaire pour le tabac.",
+            "D": "THC-COOH dans les urines pour le cannabis.",
+            "E": "Glycémie pour la cocaïne."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : La glycémie n'est pas un marqueur de consommation de cocaïne."
+    },
+    {
+        "titre": "Risques infectieux",
+        "type": "vraies",
+        "items": {
+            "A": "L'injection intraveineuse expose au VIH et au VHC.",
+            "B": "Le partage de paille (sniff) peut transmettre le VHC (Hépatite C).",
+            "C": "Le partage de pipe à crack peut transmettre le VHC.",
+            "D": "Les rapports sexuels non protégés (Chemsex) sont un risque majeur.",
+            "E": "L'alcoolisation chronique diminue l'immunité."
+        },
+        "correctes": ["A", "B", "C", "D", "E"],
+        "explication": "Le VHC est très résistant et se transmet par le sang (micro-lésions nasales ou lèvres brûlées par la pipe)."
+    },
+    {
+        "titre": "Traitement de l'urgence (Antidotes)",
+        "type": "vraies",
+        "items": {
+            "A": "Naloxone pour l'overdose d'héroïne/opiacés.",
+            "B": "Flumazénil pour l'overdose de Benzodiazépines.",
+            "C": "N-acétylcystéine pour le paracétamol.",
+            "D": "Il n'y a pas d'antidote direct pour l'overdose de cocaïne.",
+            "E": "L'alcool est l'antidote du cannabis."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : L'alcool aggrave les effets du cannabis (potentialisation)."
     }
     
     
@@ -1606,7 +1996,7 @@ if 'questions_du_jour' not in st.session_state:
 if 'etape' not in st.session_state:
     st.session_state.etape = 0
 if 'score' not in st.session_state:
-    st.session_state.score = 0.0 # On passe en décimal (float) pour les 0.2
+    st.session_state.score = 0.0
 if 'reponse_validee' not in st.session_state:
     st.session_state.reponse_validee = False
 
@@ -1627,10 +2017,11 @@ def demarrer_partie(liste_questions, titre_mode):
 if not st.session_state.quiz_started:
     st.title("📚 Menu de Révision PASS")
     st.write("Choisissez votre mode d'entraînement :")
-    st.info("ℹ️ **Nouveau Barème :** 1 point par question. -0.2 par erreur (oubli ou faute). Minimum 0.")
+    st.info("ℹ️ **Barème PASS :** 1 point par question. -0.2 par erreur (oubli ou faute). Minimum 0.")
     st.write("---")
 
-    col1, col2, col3, col4, col5 = st.columns(5)
+    # 6 colonnes pour les 6 boutons
+    col1, col2, col3, col4, col5, col6 = st.columns(6)
 
     with col1:
         st.info("🔄 **Mixte**")
@@ -1663,8 +2054,16 @@ if not st.session_state.quiz_started:
         st.info("🧠 **Addicto**")
         st.caption("Q. 91 à 120")
         if st.button("Lancer Addicto", key="btn_addicto", use_container_width=True):
-            pool = questions[90:]
+            pool = questions[90:120]
             demarrer_partie(pool, "Spécial Généralités Addicto")
+
+    with col6:
+        st.error("💊 **Drogues/PEC**")
+        st.caption("Q. 121 à 150")
+        if st.button("Lancer Drogues", key="btn_drogues", use_container_width=True):
+            # On prend les nouvelles questions (120 à la fin)
+            pool = questions[120:]
+            demarrer_partie(pool, "Spécial Drogues & Prise en Charge")
 
 # ==========================================
 # ECRAN 2 : LE QCM (Une fois lancé)
@@ -1674,7 +2073,8 @@ else:
     with st.sidebar:
         st.header("Navigation")
         st.write(f"Mode : **{st.session_state.titre_mode}**")
-        # Affichage du score arrondi à 2 décimales
+        
+        # Affichage du score arrondi
         score_display = round(st.session_state.score, 2)
         st.metric(label="Score actuel", value=f"{score_display}")
         
@@ -1719,7 +2119,7 @@ else:
         if submit_button:
             st.session_state.reponse_validee = True
         
-        # --- LOGIQUE DE NOTATION PASS ---
+        # --- LOGIQUE NOTATION PASS ---
         if st.session_state.reponse_validee:
             user_list = []
             if c_a: user_list.append("A")
@@ -1731,29 +2131,24 @@ else:
             user_set = set(user_list)
             correct_set = set(q_actuelle["correctes"])
             
-            # Calcul des erreurs
-            # 1. Oublis (Ce qu'il fallait cocher mais qui manque)
+            # Calcul erreurs
             oublis = correct_set - user_set
-            # 2. Intrus (Ce qu'on a coché en trop)
             intrus = user_set - correct_set
-            
             nb_erreurs = len(oublis) + len(intrus)
             
-            # Calcul de la note : 1 - (0.2 * nb_erreurs), minimum 0
+            # Note PASS : 1 - (0.2 * faute), min 0
             note_question = max(0.0, 1.0 - (0.2 * nb_erreurs))
-            note_question = round(note_question, 2) # Pour éviter les 0.7999999
+            note_question = round(note_question, 2)
             
-            # Ajout au score total (une seule fois au moment du clic)
             if submit_button: 
                 st.session_state.score += note_question
 
-            # --- AFFICHAGE DU RÉSULTAT ---
+            # Affichage résultats
             if nb_erreurs == 0:
                 st.success(f"PARFAIT ! (+1 pt)")
             else:
                 col_res1, col_res2 = st.columns([1, 3])
                 with col_res1:
-                    # Couleur de la note selon le résultat
                     if note_question >= 0.5:
                         st.warning(f"Note : {note_question}/1")
                     else:
@@ -1805,6 +2200,8 @@ else:
                 st.rerun()
         with col_B:
             if st.button("🔄 Relancer une série (Même mode)", key="btn_restart_end", use_container_width=True):
+                # Relance le même mode
+                pool = questions
                 if "Alcool" in st.session_state.titre_mode:
                     pool = questions[:30]
                 elif "Dopage" in st.session_state.titre_mode:
@@ -1812,8 +2209,8 @@ else:
                 elif "Gaz" in st.session_state.titre_mode:
                     pool = questions[60:90]
                 elif "Addicto" in st.session_state.titre_mode:
-                    pool = questions[90:]
-                else:
-                    pool = questions
+                    pool = questions[90:120]
+                elif "Drogues" in st.session_state.titre_mode:
+                    pool = questions[120:]
                 
                 demarrer_partie(pool, st.session_state.titre_mode)
