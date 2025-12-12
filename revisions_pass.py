@@ -32,9 +32,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- ZONE DE DONNÉES (Tes futures questions iront ici) ---
-questions = questions = questions = [
+questions = questions = questions = questions = [
+    # --- PARTIE 1 : ALCOOLISME ---
     {
-        "titre": "Epidémiologie et Mortalité",
+        "titre": "Concernant l'épidémiologie et la mortalité liée à l'alcool en France :",
         "type": "vraies",
         "items": {
             "A": "L'alcool est la première cause de mortalité prématurée en France.",
@@ -47,7 +48,7 @@ questions = questions = questions = [
         "explication": "A est Faux : C'est la 2ème cause (après le tabac). B est Vrai (30 000 hommes, 11 000 femmes). C est Faux : 11% des décès masculins contre 4% féminins. D est Faux : Elle a diminué (26L en 1961 contre 12L en 2017) puis stagné. E est Vrai : C'est une donnée majeure de santé publique."
     },
     {
-        "titre": "Définitions et Dosages (Recherchez les ERREURS)",
+        "titre": "À propos des définitions et dosages des boissons alcoolisées (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "Un verre standard (dose bar) contient environ 10g d'alcool pur.",
@@ -60,7 +61,7 @@ questions = questions = questions = [
         "explication": "Ici on cherchait les FAUX. B est Faux : Ils contiennent la même quantité d'alcool pur (~10g). C est Faux : Le French Paradox n'existe pas, même une faible consommation augmente le risque de cancer (sein, etc.). A, D, E sont Vrais."
     },
     {
-        "titre": "Pharmacocinétique : Absorption",
+        "titre": "Concernant l'absorption et la pharmacocinétique de l'éthanol :",
         "type": "vraies",
         "items": {
             "A": "L'absorption est principalement gastrique.",
@@ -73,7 +74,7 @@ questions = questions = questions = [
         "explication": "A est Faux : L'absorption est majoritairement intestinale (jéjunum/duodénum) et non gastrique. Le reste est vrai : la nourriture ferme le pylore et ralentit le passage vers l'intestin, donc retarde l'absorption."
     },
     {
-        "titre": "Métabolisme de l'éthanol (Recherchez les ERREURS)",
+        "titre": "Quelles sont les affirmations FAUSSES concernant le métabolisme de l'éthanol ?",
         "type": "fausses",
         "items": {
             "A": "La voie principale passe par l'Alcool Déshydrogénase (ADH).",
@@ -86,7 +87,7 @@ questions = questions = questions = [
         "explication": "B est Faux : L'ADH est cytosolique. D est Faux : L'acétaldéhyde est beaucoup plus toxique et réactif (adduits). E est Faux : L'élimination par le rein/poumon est marginale (3 à 5%), 90%+ est métabolisé par le foie."
     },
     {
-        "titre": "Variabilité génétique et enzymatique",
+        "titre": "Concernant la variabilité génétique des enzymes de l'alcool (ADH/ALDH) :",
         "type": "vraies",
         "items": {
             "A": "L'allèle ADH2*2 code pour une enzyme très active (rapide).",
@@ -99,7 +100,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Au contraire, le 'Flush syndrome' est très désagréable (effet antabuse naturel) et protège contre l'alcoolisme car les gens évitent de boire."
     },
     {
-        "titre": "Conséquences métaboliques",
+        "titre": "Quelles sont les conséquences métaboliques de l'oxydation de l'alcool ?",
         "type": "vraies",
         "items": {
             "A": "L'oxydation de l'alcool augmente le rapport NADH/NAD+.",
@@ -112,7 +113,7 @@ questions = questions = questions = [
         "explication": "B est Faux : L'excès de NADH bloque la néoglucogenèse à partir du pyruvate, ce qui entraîne un risque d'hypoglycémie chez l'alcoolique à jeun."
     },
     {
-        "titre": "Toxicité hépatique (Recherchez les ERREURS)",
+        "titre": "Concernant la toxicité hépatique de l'alcool, indiquez les propositions FAUSSES :",
         "type": "fausses",
         "items": {
             "A": "La stéatose est irréversible.",
@@ -125,7 +126,7 @@ questions = questions = questions = [
         "explication": "A est Faux : La stéatose est réversible à l'arrêt. D est Faux : L'hépatite aiguë est grave, avec ictère, fièvre et risque de décès. E est Faux : Le cancer survient quasi toujours sur un foie cirrhotique."
     },
     {
-        "titre": "Alcool et Cancer",
+        "titre": "Quels sont les liens avérés entre Alcool et Cancer ?",
         "type": "vraies",
         "items": {
             "A": "L'alcool est classé cancérogène certain pour l'homme.",
@@ -138,7 +139,7 @@ questions = questions = questions = [
         "explication": "E est Faux : L'alcool ne protège pas, la relation n'est pas établie ou est à risque. Pour le sein et les VADS, le lien est avéré et fort (synergie avec le tabac)."
     },
     {
-        "titre": "Syndrome d'Alcoolisation Fœtale (SAF)",
+        "titre": "À propos du Syndrome d'Alcoolisation Fœtale (SAF) :",
         "type": "vraies",
         "items": {
             "A": "Il n'y a pas de dose seuil de sécurité pendant la grossesse.",
@@ -151,7 +152,7 @@ questions = questions = questions = [
         "explication": "C et D sont Faux : C'est l'inverse ! Fentes palpébrales étroites, philtrum lisse (effacé) et lèvre supérieure mince."
     },
     {
-        "titre": "Système nerveux et Sevrage (Recherchez les ERREURS)",
+        "titre": "Concernant les complications nerveuses et le sevrage (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "L'encéphalopathie de Wernicke est due à une carence en Vitamine B12.",
@@ -164,7 +165,7 @@ questions = questions = questions = [
         "explication": "A est Faux : Carence en Vitamine B1 (Thiamine), pas B12. C est Faux : Le Delirium Tremens est la forme GRAVE et mortelle (urgence absolue)."
     },
     {
-        "titre": "Marqueurs biologiques",
+        "titre": "Quels sont les marqueurs biologiques de l'alcoolisme chronique ?",
         "type": "vraies",
         "items": {
             "A": "Le VGM (Volume des globules rouges) augmente en cas d'alcoolisme chronique.",
@@ -177,7 +178,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Les GGT sont sensibles mais peu spécifiques (augmentent avec médicaments, diabète, obésité). La CDT est le meilleur marqueur de spécificité (>90%)."
     },
     {
-        "titre": "Législation routière (France)",
+        "titre": "Concernant la législation routière de l'alcool en France :",
         "type": "vraies",
         "items": {
             "A": "Taux limite permis probatoire : 0,2 g/L.",
@@ -190,7 +191,7 @@ questions = questions = questions = [
         "explication": "Toutes ces propositions sont exactes. L'éthylotest sert au dépistage, l'éthylomètre et la prise de sang servent à la mesure légale."
     },
     {
-        "titre": "Pathologies digestives hors foie",
+        "titre": "Quels sont les effets de l'alcool sur le tube digestif (hors foie) ?",
         "type": "vraies",
         "items": {
             "A": "L'alcool est une cause fréquente de pancréatite aiguë et chronique.",
@@ -203,7 +204,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Il cause une malabsorption et des carences. E est Faux : C'est un facteur de risque majeur du cancer de l'œsophage."
     },
     {
-        "titre": "Questionnaires de repérage (Recherchez les ERREURS)",
+        "titre": "À propos des questionnaires de repérage (AUDIT/DETA) - Cochez les ERREURS :",
         "type": "fausses",
         "items": {
             "A": "Le questionnaire DETA comporte 10 questions.",
@@ -216,7 +217,7 @@ questions = questions = questions = [
         "explication": "A est Faux : Le DETA (CAGE) ne fait que 4 questions. E est Faux : Le DETA repère la dépendance/problème, pas la quantité (c'est l'AUDIT-C ou la déclaration qui quantifie)."
     },
     {
-        "titre": "Binge Drinking",
+        "titre": "Concernant le Binge Drinking (Alcoolisation Ponctuelle Importante) :",
         "type": "vraies",
         "items": {
             "A": "Défini par une consommation rapide (> 5-6 verres) pour atteindre l'ivresse.",
@@ -229,7 +230,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Le cerveau des jeunes (jusqu'à 25 ans) est très vulnérable à la neurotoxicité du binge drinking (troubles mémoire, apprentissage)."
     },
     {
-        "titre": "Interactions médicamenteuses",
+        "titre": "Quelles sont les interactions médicamenteuses notables avec l'alcool ?",
         "type": "vraies",
         "items": {
             "A": "L'alcool potentialise l'effet sédatif des benzodiazépines.",
@@ -242,7 +243,7 @@ questions = questions = questions = [
         "explication": "B est Faux : En chronique, l'alcool INDUIT (augmente) le CYP2E1, ce qui accélère le métabolisme de certains médicaments et augmente la production de toxiques."
     },
     {
-        "titre": "Physiopathologie de la fibrose hépatique",
+        "titre": "Concernant la physiopathologie de la fibrose hépatique alcoolique :",
         "type": "vraies",
         "items": {
             "A": "Le stress oxydant favorise l'inflammation.",
@@ -255,7 +256,7 @@ questions = questions = questions = [
         "explication": "Tout est vrai. C'est la cascade complexe qui mène de l'alcool à la cirrhose : Dysbiose -> LPS -> Kupffer -> Inflammation -> Activation cellules étoilées -> Fibrose."
     },
     {
-        "titre": "Sevrage et Delirium Tremens",
+        "titre": "À propos du sevrage alcoolique et du Delirium Tremens :",
         "type": "vraies",
         "items": {
             "A": "Le Delirium Tremens survient immédiatement à l'arrêt de l'alcool (1h).",
@@ -268,7 +269,7 @@ questions = questions = questions = [
         "explication": "A est Faux : Il survient généralement après 48-72h. E est Faux : L'hydratation est cruciale car le patient sue énormément et est en hyperthermie."
     },
     {
-        "titre": "Cardiomyopathie et Cœur (Recherchez les ERREURS)",
+        "titre": "Concernant les effets cardio-vasculaires de l'alcool (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "La cardiomyopathie alcoolique est une forme restrictive.",
@@ -281,7 +282,7 @@ questions = questions = questions = [
         "explication": "A est Faux : C'est une cardiomyopathie DILATÉE (le cœur grossit et pompe mal). D est Faux : L'alcool est hypertenseur (augmente la tension)."
     },
     {
-        "titre": "Excrétion de l'alcool",
+        "titre": "Comment l'alcool est-il excrété de l'organisme ?",
         "type": "vraies",
         "items": {
             "A": "95% de l'alcool est métabolisé par le foie.",
@@ -294,7 +295,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Le rein n'élimine que 2 à 5% de l'alcool sous forme inchangée."
     },
     {
-        "titre": "Prise en charge hépatite alcoolique",
+        "titre": "Concernant la prise en charge de l'hépatite alcoolique aiguë :",
         "type": "vraies",
         "items": {
             "A": "Le sevrage total est indispensable.",
@@ -307,7 +308,7 @@ questions = questions = questions = [
         "explication": "D est Faux : On ne greffe pas en phase aiguë d'hépatite alcoolique (règle des 6 mois d'abstinence souvent appliquée, bien que débattue, mais jamais en 1ere intention dans l'urgence infectieuse/inflammatoire)."
     },
     {
-        "titre": "Signes cliniques d'imprégnation chronique",
+        "titre": "Quels sont les signes cliniques d'imprégnation alcoolique chronique ?",
         "type": "vraies",
         "items": {
             "A": "Érythrose faciale et varicosités.",
@@ -320,7 +321,7 @@ questions = questions = questions = [
         "explication": "Tous ces signes sont des classiques de l'examen clinique de l'alcoolodépendant chronique."
     },
     {
-        "titre": "Définition de la dépendance (Critères)",
+        "titre": "Quels sont les critères cliniques de la dépendance ?",
         "type": "vraies",
         "items": {
             "A": "Tolérance (besoin d'augmenter les doses).",
@@ -333,7 +334,7 @@ questions = questions = questions = [
         "explication": "Ce sont les critères DSM classiques de l'addiction/dépendance."
     },
     {
-        "titre": "Alcool et Accidents",
+        "titre": "Concernant l'alcool et l'accidentologie routière :",
         "type": "vraies",
         "items": {
             "A": "L'alcool est responsable de 30% de la mortalité routière.",
@@ -346,7 +347,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Ils sont plus graves (vitesse, absence de freinage). D et E expliquent pourquoi les accidents arrivent (vision tunnel + réflexes lents)."
     },
     {
-        "titre": "Effets sur le sang (Hématologie)",
+        "titre": "Quels sont les effets hématologiques de l'alcool ?",
         "type": "vraies",
         "items": {
             "A": "Macrocytose (augmentation de la taille des globules rouges).",
@@ -359,7 +360,7 @@ questions = questions = questions = [
         "explication": "E est Faux : L'alcool diminue l'agrégation plaquettaire (effet 'fluidifiant' à faible dose, mais risque hémorragique à forte dose)."
     },
     {
-        "titre": "Encéphalopathie de Gayet-Wernicke",
+        "titre": "À propos de l'Encéphalopathie de Gayet-Wernicke :",
         "type": "vraies",
         "items": {
             "A": "C'est une urgence médicale.",
@@ -372,7 +373,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Elle est due à la carence en Vitamine B1, pas à la toxicité directe. Il faut donner la B1 AVANT le sucre pour éviter d'aggraver les lésions."
     },
     {
-        "titre": "Coût social de l'alcool",
+        "titre": "Concernant le coût social de l'alcool :",
         "type": "vraies",
         "items": {
             "A": "Le coût social est estimé à 120 milliards d'euros (2015).",
@@ -385,7 +386,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Les taxes (3-4 milliards) sont ridicules par rapport au coût (120 milliards). Le coût social est bien supérieur aux recettes."
     },
     {
-        "titre": "Méthode de Cordebard (Chimie)",
+        "titre": "Concernant la méthode de dosage de Cordebard (Chimie) :",
         "type": "vraies",
         "items": {
             "A": "C'est une méthode de dosage officielle.",
@@ -398,7 +399,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Milieu ACIDE (acide sulfurique). E est Faux : C'est une méthode CHIMIQUE (oxydoréduction), pas enzymatique."
     },
     {
-        "titre": "Marqueurs et Sevrage (Délais)",
+        "titre": "Quels sont les délais de normalisation des marqueurs biologiques après sevrage ?",
         "type": "vraies",
         "items": {
             "A": "L'alcoolémie s'annule en quelques heures.",
@@ -411,7 +412,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Le VGM est le marqueur le plus lent à se normaliser (la vie d'un globule rouge est de 120 jours)."
     },
     {
-        "titre": "Facteurs influençant l'alcoolémie",
+        "titre": "Quels facteurs influencent le taux d'alcoolémie ?",
         "type": "vraies",
         "items": {
             "A": "Le sexe (plus élevée chez la femme à dose égale).",
@@ -424,9 +425,9 @@ questions = questions = questions = [
         "explication": "Tous ces facteurs modifient la pharmacocinétique de l'alcool."
     },
 
-    # --- PARTIE 2 : DOPAGE (30 Questions) ---
+    # --- PARTIE 2 : DOPAGE ---
     {
-        "titre": "Définition et Structures (Recherchez les ERREURS)",
+        "titre": "Concernant la définition et les structures de lutte contre le dopage (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "Le dopage ne concerne que les compétitions.",
@@ -439,7 +440,7 @@ questions = questions = questions = [
         "explication": "A est Faux : Le dopage concerne aussi l'entraînement et les contrôles hors compétition. E est Faux : La liste est mise à jour chaque année (au 1er janvier)."
     },
     {
-        "titre": "Classification S1 : Anabolisants",
+        "titre": "Concernant la classe S1 (Agents anabolisants) dans la liste des interdictions :",
         "type": "vraies",
         "items": {
             "A": "La testostérone est le chef de file.",
@@ -452,7 +453,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Ils sont tous androgéniques (virilisants) à divers degrés. E est Faux : Les précurseurs sont interdits (S1)."
     },
     {
-        "titre": "Effets secondaires des Stéroïdes (S1)",
+        "titre": "Quels sont les effets secondaires des stéroïdes anabolisants (S1) ?",
         "type": "vraies",
         "items": {
             "A": "Arrêt de la croissance chez l'adolescent (soudure des épiphyses).",
@@ -465,7 +466,7 @@ questions = questions = questions = [
         "explication": "Tableau complet des effets secondaires graves des anabolisants."
     },
     {
-        "titre": "Classification S2 : Hormones peptidiques",
+        "titre": "Concernant la classe S2 (Hormones peptidiques et facteurs de croissance) :",
         "type": "vraies",
         "items": {
             "A": "L'EPO stimule l'érythropoïèse (globules rouges).",
@@ -478,7 +479,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Tous les mimétiques et dérivés de l'EPO sont strictement interdits."
     },
     {
-        "titre": "Bêta-2 Agonistes (S3) (Recherchez les ERREURS)",
+        "titre": "À propos des Bêta-2 Agonistes (S3) (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "Le Salbutamol (Ventoline) est un bronchodilatateur.",
@@ -491,7 +492,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Le Salbutamol inhalé est autorisé jusqu'à un certain seuil (1600 mcg/24h). Au-delà, c'est un résultat anormal."
     },
     {
-        "titre": "Modulateurs hormonaux (S4)",
+        "titre": "Concernant la classe S4 (Modulateurs hormonaux et métaboliques) :",
         "type": "vraies",
         "items": {
             "A": "Les anti-aromatases empêchent la transformation de testostérone en œstrogène.",
@@ -504,7 +505,7 @@ questions = questions = questions = [
         "explication": "Tout est vrai. S4 est une classe 'fourre-tout' qui inclut insuline, anti-oestrogènes et modulateurs métaboliques."
     },
     {
-        "titre": "Diurétiques et Masquants (S5)",
+        "titre": "Concernant la classe S5 (Diurétiques et agents masquants) :",
         "type": "vraies",
         "items": {
             "A": "Ils sont interdits en et hors compétition.",
@@ -517,7 +518,7 @@ questions = questions = questions = [
         "explication": "Classe S5 très utilisée pour masquer la prise d'autres produits ou 'faire le poids'."
     },
     {
-        "titre": "Stimulants (S6)",
+        "titre": "Concernant la classe S6 (Stimulants) :",
         "type": "vraies",
         "items": {
             "A": "Ils sont interdits uniquement en compétition.",
@@ -530,7 +531,7 @@ questions = questions = questions = [
         "explication": "Attention à la pseudoéphédrine (Actifed, etc.) qui peut rendre positif un contrôle en compétition."
     },
     {
-        "titre": "Narcotiques et Cannabinoïdes (S7/S8)",
+        "titre": "Concernant les Narcotiques et Cannabinoïdes (S7 et S8) :",
         "type": "vraies",
         "items": {
             "A": "Les narcotiques (Morphine) masquent la douleur.",
@@ -543,7 +544,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Il altère les réflexes. D est Faux : Le CBD n'est plus interdit, mais le THC reste interdit en compétition."
     },
     {
-        "titre": "Glucocorticoïdes (S9)",
+        "titre": "Concernant la classe S9 (Glucocorticoïdes) :",
         "type": "vraies",
         "items": {
             "A": "Ils ont un effet anti-inflammatoire et euphorisant.",
@@ -556,7 +557,7 @@ questions = questions = questions = [
         "explication": "Effets classiques des corticoïdes. En dopage, on cherche l'effet stimulant/anti-douleur malgré l'effet catabolique musculaire."
     },
     {
-        "titre": "Méthodes interdites (M1, M2, M3)",
+        "titre": "Concernant les Méthodes Interdites (M1, M2, M3) :",
         "type": "vraies",
         "items": {
             "A": "M1 concerne le dopage sanguin (transfusion, transporteurs O2).",
@@ -569,7 +570,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Toute transfusion (autologue ou homologue) est interdite sans raison médicale vitale."
     },
     {
-        "titre": "Contrôle Antidopage (Recherchez les ERREURS)",
+        "titre": "Concernant le déroulement du Contrôle Antidopage (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "Le sportif est convoqué par une notification.",
@@ -582,7 +583,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Il doit se présenter IMMÉDIATEMENT (ou dans un délai très court justifié, genre podium/presse, mais sous escorte). Pas 24h !"
     },
     {
-        "titre": "AUT et Responsabilité",
+        "titre": "Concernant les AUT et la Responsabilité :",
         "type": "vraies",
         "items": {
             "A": "Le principe de 'Responsabilité Objective' s'applique au sportif.",
@@ -595,7 +596,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Rétroactive seulement en cas d'urgence vitale. E est Faux : C'est une circonstance atténuante, mais la sanction tombe quand même (responsabilité objective)."
     },
     {
-        "titre": "Profil Biologique (Passeport)",
+        "titre": "À propos du Profil Biologique du Sportif (Passeport) :",
         "type": "vraies",
         "items": {
             "A": "Il suit les variations individuelles des paramètres sanguins et urinaires.",
@@ -608,7 +609,7 @@ questions = questions = questions = [
         "explication": "Outil puissant pour le ciblage et la sanction indirecte."
     },
     {
-        "titre": "Bêta-bloquants (P1)",
+        "titre": "Concernant les Bêta-bloquants (P1) :",
         "type": "vraies",
         "items": {
             "A": "Ils sont interdits dans tous les sports.",
@@ -621,7 +622,7 @@ questions = questions = questions = [
         "explication": "A est Faux : Ils ne sont interdits QUE dans certains sports spécifiques (P = Particulier)."
     },
     {
-        "titre": "Risques de l'hormone de croissance (hGH)",
+        "titre": "Quels sont les risques liés à l'hormone de croissance (hGH) ?",
         "type": "vraies",
         "items": {
             "A": "Diabète.",
@@ -634,7 +635,7 @@ questions = questions = questions = [
         "explication": "L'hGH est hyperglycémiante (anti-insuline), donc risque de diabète, pas d'hypoglycémie."
     },
     {
-        "titre": "Substances spécifiques (Quiz)",
+        "titre": "Connaissances spécifiques sur certaines substances dopantes :",
         "type": "vraies",
         "items": {
             "A": "Le Roxadustat stimule les facteurs HIF (érythropoïèse).",
@@ -647,7 +648,7 @@ questions = questions = questions = [
         "explication": "B est Faux : L'EPO recombinante a des profils de glycosylation différents de la naturelle, ce qui permet de la détecter (bandes isoélectriques)."
     },
     {
-        "titre": "Dopage génétique",
+        "titre": "Qu'est-ce que le dopage génétique (M3) ?",
         "type": "vraies",
         "items": {
             "A": "Utilisation de vecteurs viraux pour modifier l'ADN.",
@@ -660,7 +661,7 @@ questions = questions = questions = [
         "explication": "E est Faux : C'est extrêmement difficile à détecter, nécessite des méthodes spécifiques (PCR digitale, etc.)."
     },
     {
-        "titre": "Statistiques et Compléments (Recherchez les ERREURS)",
+        "titre": "Statistiques et Compléments alimentaires (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "Les stéroïdes anabolisants représentent environ 50% des contrôles positifs.",
@@ -673,7 +674,7 @@ questions = questions = questions = [
         "explication": "B est Faux : 15-25% sont contaminés/non conformes. D est Faux : C'est une affirmation souvent dite mais fausse, le trafic de drogue reste économiquement supérieur, bien que le dopage soit très lucratif."
     },
     {
-        "titre": "Localisation et Acteurs",
+        "titre": "Concernant la localisation et les acteurs de la lutte antidopage :",
         "type": "vraies",
         "items": {
             "A": "L'AMA est basée à Montréal.",
@@ -686,7 +687,7 @@ questions = questions = questions = [
         "explication": "B est partiellement vrai/faux selon la date (il déménage à Saclay), mais historiquement associé à Châtenay. Disons Vrai pour le contexte PASS classique sauf info contraire récente. (Le labo est l'AFLD)."
     },
     {
-        "titre": "Cibles des anabolisants",
+        "titre": "Quelles sont les cibles physiologiques des anabolisants ?",
         "type": "vraies",
         "items": {
             "A": "Muscle squelettique (hypertrophie).",
@@ -699,7 +700,7 @@ questions = questions = questions = [
         "explication": "Les récepteurs aux androgènes sont présents partout, d'où la multitude d'effets secondaires."
     },
     {
-        "titre": "EPO et physiologie",
+        "titre": "Concernant l'EPO et la physiologie sanguine :",
         "type": "vraies",
         "items": {
             "A": "L'EPO est produite par le rein en réponse à l'hypoxie.",
@@ -712,7 +713,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Elle ÉPAISSIT le sang (augmente la viscosité), d'où le risque de thrombose/AVC."
     },
     {
-        "titre": "Historique du Dopage",
+        "titre": "Concernant l'historique du Dopage :",
         "type": "vraies",
         "items": {
             "A": "Le dopage existe depuis l'antiquité.",
@@ -725,7 +726,7 @@ questions = questions = questions = [
         "explication": "E est Faux : La lutte structurée commence dans les années 1960 (premiers tests JO 1968)."
     },
     {
-        "titre": "Cannabis et Dopage",
+        "titre": "À propos du Cannabis dans le cadre du dopage :",
         "type": "vraies",
         "items": {
             "A": "C'est la substance la plus détectée en compétition en France (hors anabolisants).",
@@ -738,7 +739,7 @@ questions = questions = questions = [
         "explication": "Tout est vrai. Le cannabis est l'un des produits les plus festifs détectés, interdit seulement en compétition."
     },
     {
-        "titre": "Glucocorticoïdes : Effets recherchés",
+        "titre": "Quels sont les effets recherchés par l'usage de Glucocorticoïdes ?",
         "type": "vraies",
         "items": {
             "A": "Augmentation de la masse musculaire.",
@@ -751,7 +752,7 @@ questions = questions = questions = [
         "explication": "A est Faux : Ils sont CATABOLIQUES (ils détruisent le muscle), c'est leur principal inconvénient sportif."
     },
     {
-        "titre": "Masquage physique (M2)",
+        "titre": "Quelles sont les méthodes de masquage physique (M2) ?",
         "type": "vraies",
         "items": {
             "A": "Sondage vésical pour introduire une urine propre.",
@@ -764,7 +765,7 @@ questions = questions = questions = [
         "explication": "Ce sont toutes des méthodes de triche physique/chimique strictement interdites."
     },
     {
-        "titre": "Stimulants SNC (Recherchez les ERREURS)",
+        "titre": "À propos des Stimulants du SNC (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "La cocaïne bloque la recapture de la dopamine.",
@@ -777,7 +778,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Ils provoquent une HYPERTHERMIE maligne d'effort (coup de chaleur). E est Faux : Risque élevé de mort subite par trouble du rythme."
     },
     {
-        "titre": "Conduite à tenir (AMPD)",
+        "titre": "Concernant les Antennes Médicales de Prévention du Dopage (AMPD) :",
         "type": "vraies",
         "items": {
             "A": "L'antenne médicale propose un suivi psychologique.",
@@ -790,7 +791,7 @@ questions = questions = questions = [
         "explication": "C est Faux : L'AMPD est un lieu de SOIN, pas de sanction (rôle de l'AFLD/Fédérations). Séparation des pouvoirs soin/police."
     },
     {
-        "titre": "Alcool et dopage (S1 à P1)",
+        "titre": "Quels sont les liens entre Alcool et Dopage ?",
         "type": "vraies",
         "items": {
             "A": "L'alcool était autrefois interdit dans certains sports (Tir, etc.).",
@@ -803,7 +804,7 @@ questions = questions = questions = [
         "explication": "E est Faux : L'alcool nuit gravement à la récupération (déshydratation, sommeil perturbé, synthèse protéique bloquée)."
     },
     {
-        "titre": "Synthèse Dopage",
+        "titre": "Synthèse sur l'éthique et le dopage :",
         "type": "vraies",
         "items": {
             "A": "La créatine est un produit dopant.",
@@ -814,9 +815,11 @@ questions = questions = questions = [
         },
         "correctes": ["B", "C", "D"],
         "explication": "A est Faux : La créatine est autorisée. E est Faux : La loi s'applique à tous (détention, trafic), même si les contrôles ciblent l'élite."
-    },# --- PARTIE 3 : GAZ ET INHALANTS ---
+    },
+    
+    # --- PARTIE 3 : GAZ ET INHALANTS ---
     {
-        "titre": "Généralités sur les Inhalants",
+        "titre": "Concernant les généralités sur les gaz et solvants inhalés :",
         "type": "vraies",
         "items": {
             "A": "Ce sont des produits chimiques volatils.",
@@ -829,7 +832,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Ils sont recherchés justement pour leurs effets euphorisants/psychotropes. E est Faux : Cela concerne surtout les jeunes adultes et adolescents."
     },
     {
-        "titre": "Modes de consommation (Définitions)",
+        "titre": "À propos des modes de consommation des inhalants :",
         "type": "vraies",
         "items": {
             "A": "Le 'Sniffing' consiste à inhaler le produit dans un sac plastique.",
@@ -842,7 +845,7 @@ questions = questions = questions = [
         "explication": "A est Faux : L'inhalation dans un sac s'appelle le 'Bagging'. Le Sniffing est l'inhalation directe."
     },
     {
-        "titre": "Classification des Hydrocarbures volatils",
+        "titre": "Concernant la classification des hydrocarbures volatils :",
         "type": "vraies",
         "items": {
             "A": "Les solvants volatils incluent les colles et les marqueurs.",
@@ -855,7 +858,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Les gaz incluent aussi le butane (briquets), le propane, et les fluides frigorigènes."
     },
     {
-        "titre": "Mécanisme d'action des solvants",
+        "titre": "Quel est le mécanisme d'action des solvants volatils ?",
         "type": "vraies",
         "items": {
             "A": "Le mécanisme est similaire à celui des stimulants (cocaïne).",
@@ -868,7 +871,7 @@ questions = questions = questions = [
         "explication": "A est Faux : Ce ne sont pas des stimulants purs, mais des dépresseurs du système nerveux central (comme l'éthanol), provoquant une ivresse."
     },
     {
-        "titre": "Effets initiaux (Ivresse)",
+        "titre": "Quels sont les effets initiaux (phase d'ivresse) des inhalants ?",
         "type": "vraies",
         "items": {
             "A": "Euphorie et désinhibition.",
@@ -881,7 +884,7 @@ questions = questions = questions = [
         "explication": "C est Faux : On observe des troubles de la démarche et de l'équilibre. E est Faux : Les effets sont brefs (quelques secondes à quelques heures)."
     },
     {
-        "titre": "Nitrites d'alkyles (Poppers) : Généralités",
+        "titre": "Concernant les Nitrites d'alkyles (Poppers), cochez les ERREURS :",
         "type": "fausses",
         "items": {
             "A": "La formule générale est R-NO2.",
@@ -894,7 +897,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Ce sont des VASODILATATEURS puissants (relâchement des muscles lisses), d'où les bouffées de chaleur et la baisse de tension."
     },
     {
-        "titre": "Mécanisme d'action des Poppers",
+        "titre": "Quel est le mécanisme d'action pharmacologique des Poppers ?",
         "type": "vraies",
         "items": {
             "A": "Ils libèrent du Monoxyde d'Azote (NO).",
@@ -907,7 +910,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Ils provoquent une RELAXATION des muscles lisses (vasodilatation, relâchement sphinctérien)."
     },
     {
-        "titre": "Effets recherchés des Poppers",
+        "titre": "Quels sont les effets recherchés lors de la consommation de Poppers ?",
         "type": "vraies",
         "items": {
             "A": "Brève bouffée vertigineuse (Rush).",
@@ -920,7 +923,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Ils dilatent (relâchent) le sphincter anal, ce qui facilite la pénétration (usage Chemsex)."
     },
     {
-        "titre": "Toxicité Aiguë des Solvants (Recherchez les ERREURS)",
+        "titre": "Concernant la toxicité aiguë des solvants (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "Risque de vertiges et somnolence.",
@@ -933,7 +936,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Le risque de décès est réel, par trouble du rythme cardiaque ou asphyxie."
     },
     {
-        "titre": "Mort subite du renifleur",
+        "titre": "À propos du phénomène de 'Mort subite du renifleur' :",
         "type": "vraies",
         "items": {
             "A": "Peut survenir même lors d'une première utilisation.",
@@ -946,7 +949,7 @@ questions = questions = questions = [
         "explication": "Le cœur devient hyper-sensible à l'adrénaline, et un stress soudain (peur, effort) déclenche une fibrillation ventriculaire."
     },
     {
-        "titre": "Toxicité Chronique des Solvants",
+        "titre": "Quels sont les risques de toxicité chronique des solvants ?",
         "type": "vraies",
         "items": {
             "A": "Neurotoxicité sévère (cerveau et nerfs périphériques).",
@@ -959,7 +962,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Au contraire, on observe une démence et des troubles cognitifs."
     },
     {
-        "titre": "Toxicité Aiguë des Poppers (Nitrites)",
+        "titre": "Concernant la toxicité aiguë des Poppers (Nitrites) :",
         "type": "vraies",
         "items": {
             "A": "Hypertension artérielle sévère.",
@@ -972,7 +975,7 @@ questions = questions = questions = [
         "explication": "A est Faux : C'est un vasoDILATATEUR, donc il provoque une HYPOtension (chute de tension)."
     },
     {
-        "titre": "Lésions spécifiques des Poppers (Chronique)",
+        "titre": "Quelles lésions spécifiques sont liées à l'usage chronique de Poppers ?",
         "type": "vraies",
         "items": {
             "A": "Croûtes jaunâtres autour du nez et des lèvres (brûlures chimiques).",
@@ -985,7 +988,7 @@ questions = questions = questions = [
         "explication": "D est Faux : À long terme, ils peuvent causer une dysfonction érectile."
     },
     {
-        "titre": "Prise en charge et Traitement",
+        "titre": "Concernant la prise en charge d'une intoxication aux solvants (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "Il faut décontaminer la peau et les vêtements.",
@@ -998,7 +1001,7 @@ questions = questions = questions = [
         "explication": "B est Faux : SURTOUT PAS d'adrénaline ! Le cœur est hyper-sensibilisé, cela provoquerait un arrêt cardiaque immédiat."
     },
     {
-        "titre": "Analyses toxicologiques",
+        "titre": "Quelles sont les méthodes d'analyse toxicologique des gaz/solvants ?",
         "type": "vraies",
         "items": {
             "A": "Le prélèvement sanguin doit être fait dans un flacon hermétique.",
@@ -1011,7 +1014,7 @@ questions = questions = questions = [
         "explication": "C est Faux : L'urine est peu intéressante pour les gaz eux-mêmes car ils sont éliminés par les poumons, sauf pour leurs métabolites."
     },
     {
-        "titre": "Produits spécifiques et risques",
+        "titre": "À propos de produits spécifiques (Protoxyde d'azote, Butane, etc.) :",
         "type": "vraies",
         "items": {
             "A": "Le protoxyde d'azote est un gaz hilarant.",
@@ -1024,7 +1027,7 @@ questions = questions = questions = [
         "explication": "E est Faux (piège subtil) : Le Fréon est un fluide frigorigène (frigo/clim), pas un gaz propulseur classique d'aérosol grand public (remplacé par d'autres)."
     },
     {
-        "titre": "Facteurs de toxicité",
+        "titre": "Quels facteurs influencent la toxicité des inhalants ?",
         "type": "vraies",
         "items": {
             "A": "La méthode d'inhalation (sac vs tissu) influe sur la concentration.",
@@ -1037,7 +1040,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Un cœur fragile est plus à risque. E est Faux : Tolérance et dépendance existent."
     },
     {
-        "titre": "Interactions Poppers (Danger)",
+        "titre": "Concernant l'interaction Poppers + Viagra (Danger) :",
         "type": "vraies",
         "items": {
             "A": "L'association Poppers + Viagra (inhibiteur PDE5) est dangereuse.",
@@ -1050,7 +1053,7 @@ questions = questions = questions = [
         "explication": "Cumul de deux vasodilatateurs = chute de tension massive = danger de mort."
     },
     {
-        "titre": "Symptômes cutanés (Dermatologie)",
+        "titre": "Quels sont les symptômes cutanés liés à l'usage d'inhalants ?",
         "type": "vraies",
         "items": {
             "A": "Eczéma de contact autour de la bouche ('Glue sniffer's rash').",
@@ -1063,7 +1066,7 @@ questions = questions = questions = [
         "explication": "L'irritation péri-orale est un signe clinique classique chez le consommateur chronique."
     },
     {
-        "titre": "Epidémiologie Inhalants",
+        "titre": "Concernant l'épidémiologie des inhalants :",
         "type": "vraies",
         "items": {
             "A": "Touchent souvent les populations précaires ou jeunes.",
@@ -1076,7 +1079,7 @@ questions = questions = questions = [
         "explication": "Disponibilité grande et coût très faible (produits ménagers)."
     },
     {
-        "titre": "Méthanol et Dichlorométhane",
+        "titre": "Toxicité spécifique du Méthanol et du Dichlorométhane :",
         "type": "vraies",
         "items": {
             "A": "Le méthanol est toxique pour le nerf optique (cécité).",
@@ -1089,7 +1092,7 @@ questions = questions = questions = [
         "explication": "Ce sont des solvants à toxicité spécifique très grave."
     },
     {
-        "titre": "Effets sur le sang (Hématologie)",
+        "titre": "Quels sont les effets hématologiques des solvants et nitrites ?",
         "type": "vraies",
         "items": {
             "A": "Le benzène est leucémogène (leucémie).",
@@ -1102,7 +1105,7 @@ questions = questions = questions = [
         "explication": "C est Faux : La méthémoglobine ne transporte plus l'oxygène (asphyxie). E est Faux : Le sang devient brun/chocolat (cyanose)."
     },
     {
-        "titre": "Chemsex et Poppers",
+        "titre": "Concernant le Chemsex et l'usage de Poppers :",
         "type": "vraies",
         "items": {
             "A": "Le poppers est utilisé pour faciliter la pénétration anale.",
@@ -1115,7 +1118,7 @@ questions = questions = questions = [
         "explication": "La désinhibition augmente les conduites à risque (MST/VIH)."
     },
     {
-        "titre": "Analyse Headspace (Espace de tête)",
+        "titre": "En quoi consiste l'analyse par Espace de Tête (Headspace) ?",
         "type": "vraies",
         "items": {
             "A": "On chauffe l'échantillon dans un flacon fermé.",
@@ -1128,7 +1131,7 @@ questions = questions = questions = [
         "explication": "B est Faux : On prélève justement le gaz ('tête') pour ne pas encrasser l'appareil avec le sang."
     },
     {
-        "titre": "Risques cardiaques (Détails)",
+        "titre": "Détails sur les risques cardiaques des inhalants :",
         "type": "vraies",
         "items": {
             "A": "Sensibilisation aux catécholamines endogènes.",
@@ -1141,7 +1144,7 @@ questions = questions = questions = [
         "explication": "E est Faux : La mort subite (Sudden Sniffing Death) est brutale et imprévisible."
     },
     {
-        "titre": "Comparaison Alcool / Solvants",
+        "titre": "Comparaison entre l'Alcool et les Solvants inhalés :",
         "type": "vraies",
         "items": {
             "A": "Tous deux sont des dépresseurs du SNC.",
@@ -1154,7 +1157,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Les solvants (inhalés) agissent quasi instantanément (poumon -> cerveau), plus vite que l'alcool (digestion)."
     },
     {
-        "titre": "Addiction aux inhalants",
+        "titre": "Concernant l'addiction aux inhalants :",
         "type": "vraies",
         "items": {
             "A": "La dépendance psychologique existe.",
@@ -1167,7 +1170,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Un syndrome de sevrage (irritabilité, troubles sommeil) est possible."
     },
     {
-        "titre": "Propriétés physico-chimiques",
+        "titre": "Quelles sont les propriétés physico-chimiques des inhalants ?",
         "type": "vraies",
         "items": {
             "A": "Les inhalants sont liposolubles (aiment le gras).",
@@ -1180,7 +1183,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Ils sont lipophiles, pas hydrophiles."
     },
     {
-        "titre": "Législation et Prévention",
+        "titre": "Concernant la législation et la prévention des solvants/poppers :",
         "type": "vraies",
         "items": {
             "A": "La vente de solvants est interdite aux mineurs.",
@@ -1193,7 +1196,7 @@ questions = questions = questions = [
         "explication": "Les poppers ont eu un statut juridique fluctuant mais sont en vente libre actuellement. Le dépistage routier cible l'alcool et les stups classiques."
     },
     {
-        "titre": "Synthèse Gaz et Inhalants",
+        "titre": "Synthèse sur les Gaz et Inhalants (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "Toxicité immédiate cardiaque (arythmie).",
@@ -1204,9 +1207,10 @@ questions = questions = questions = [
         },
         "correctes": ["C"],
         "explication": "C est Faux : Ce sont des vasodilatateurs."
-    },# --- PARTIE 4 : ADDICTOLOGIE GÉNÉRALITÉS ---
+    },
+    # --- PARTIE 4 : ADDICTOLOGIE GÉNÉRALITÉS ---
     {
-        "titre": "Histoire et Étymologie",
+        "titre": "Concernant l'histoire et l'étymologie de l'addiction :",
         "type": "vraies",
         "items": {
             "A": "Le terme vient du latin 'addicere' (dire à).",
@@ -1219,7 +1223,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Le concept moderne inclut les addictions comportementales (sans substance). E est Faux : C'était un terme juridique avant d'être médical."
     },
     {
-        "titre": "Physiopathologie (Circuit de la récompense)",
+        "titre": "À propos de la physiopathologie et du circuit de la récompense :",
         "type": "vraies",
         "items": {
             "A": "Le circuit impliqué est le circuit méso-cortico-limbique.",
@@ -1232,7 +1236,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Le neurotransmetteur roi du circuit de la récompense est la DOPAMINE (pas la sérotonine)."
     },
     {
-        "titre": "Définition de l'Addiction (Concepts actuels)",
+        "titre": "Quelle est la définition actuelle de l'Addiction (Concepts actuels) ?",
         "type": "vraies",
         "items": {
             "A": "C'est une pathologie cérébrale chronique.",
@@ -1245,7 +1249,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Elle concerne aussi les produits licites (alcool, tabac) et les comportements (jeu, sexe, achats)."
     },
     {
-        "titre": "Le Craving (Définition)",
+        "titre": "À propos du Craving (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "C'est un besoin compulsif et irrépressible de consommer.",
@@ -1258,7 +1262,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Le craving est perçu comme INAPPROPRIÉ, intrusif et subit par le patient (il veut arrêter mais le besoin est plus fort)."
     },
     {
-        "titre": "Tolérance (Pharmacologie)",
+        "titre": "Concernant la Tolérance (Notion pharmacologique) :",
         "type": "vraies",
         "items": {
             "A": "C'est la nécessité d'augmenter les doses pour obtenir le même effet.",
@@ -1271,7 +1275,7 @@ questions = questions = questions = [
         "explication": "D est Faux : La tolérance est un mécanisme d'adaptation physique/pharmacologique, elle ne suffit pas à définir l'addiction (ex: morphinique pour la douleur)."
     },
     {
-        "titre": "Le Sevrage",
+        "titre": "Qu'est-ce que le Sevrage ?",
         "type": "vraies",
         "items": {
             "A": "C'est l'ensemble des symptômes survenant à l'arrêt du produit.",
@@ -1284,7 +1288,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Les symptômes physiques sont spécifiques au produit (ex: tremblements pour l'alcool, douleurs pour l'héroïne)."
     },
     {
-        "titre": "Dépendance Physique vs Psychique",
+        "titre": "Comparaison Dépendance Physique vs Psychique (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "La dépendance physique se traduit par la tolérance et le sevrage.",
@@ -1297,7 +1301,7 @@ questions = questions = questions = [
         "explication": "C est Faux : La dépendance physique disparaît rapidement (quelques jours/semaines). C'est la dépendance PSYCHIQUE qui est durable et cause les rechutes lointaines."
     },
     {
-        "titre": "Classification des substances (Effets)",
+        "titre": "Concernant la classification des substances selon leurs effets :",
         "type": "vraies",
         "items": {
             "A": "Psycholeptiques : Sédatifs, apaisants (Alcool, Opiacés).",
@@ -1310,7 +1314,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Le tabac (Nicotine) est classé dans les stimulants (Psychoanaleptiques) mineurs."
     },
     {
-        "titre": "Classification CIM-10 (Usage)",
+        "titre": "Concernant la classification CIM-10 des usages :",
         "type": "vraies",
         "items": {
             "A": "L'usage simple n'est défini que pour l'alcool.",
@@ -1323,7 +1327,7 @@ questions = questions = questions = [
         "explication": "D est Faux : En CIM-10, les conséquences sociales ne suffisent pas (contrairement au DSM-5). Il faut des signes de dépendance (tolérance, sevrage, perte de contrôle)."
     },
     {
-        "titre": "Trivarié de l'Addiction (Facteurs de risque)",
+        "titre": "À propos du schéma trivarié de l'Addiction (Facteurs de risque) :",
         "type": "vraies",
         "items": {
             "A": "Le risque dépend de l'interaction Produit x Individu x Environnement.",
@@ -1336,7 +1340,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Il y a une forte héritabilité génétique pour certaines addictions (40-60%)."
     },
     {
-        "titre": "Facteurs de vulnérabilité individuels",
+        "titre": "Quels sont les facteurs de vulnérabilité individuels (Tempérament/Caractère) ?",
         "type": "vraies",
         "items": {
             "A": "Le tempérament est acquis et changeant.",
@@ -1349,7 +1353,7 @@ questions = questions = questions = [
         "explication": "A et B sont Faux : C'est l'inverse ! Tempérament = Inné/Biologique/Stable. Caractère = Acquis/Éducatif/Évolutif."
     },
     {
-        "titre": "Comorbidités psychiatriques",
+        "titre": "Quelles comorbidités psychiatriques sont liées aux addictions ?",
         "type": "vraies",
         "items": {
             "A": "Les troubles bipolaires sont un facteur de risque d'addiction.",
@@ -1362,7 +1366,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Le TDAH est un facteur de risque majeur d'addiction (impulsivité)."
     },
     {
-        "titre": "Facteurs environnementaux",
+        "titre": "Concernant les facteurs environnementaux (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "La famille peut être un facteur de risque (conflits, carences).",
@@ -1375,7 +1379,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Plus on commence JEUNE, plus le risque d'addiction est ÉLEVÉ (cerveau immature)."
     },
     {
-        "titre": "Potentiel addictif des substances",
+        "titre": "Quel est le potentiel addictif des différentes substances ?",
         "type": "vraies",
         "items": {
             "A": "Le tabac (nicotine) a un fort potentiel addictif.",
@@ -1388,7 +1392,7 @@ questions = questions = questions = [
         "explication": "D est Faux : L'alcool a un potentiel addictif intermédiaire à fort, certainement pas nul."
     },
     {
-        "titre": "Pharmacocinétique et Addiction",
+        "titre": "Quels paramètres pharmacocinétiques influencent l'addiction ?",
         "type": "vraies",
         "items": {
             "A": "Plus le pic plasmatique est rapide (Flash), plus le produit est addictogène.",
@@ -1401,7 +1405,7 @@ questions = questions = questions = [
         "explication": "D est Faux : C'est l'inverse. Une demi-vie COURTE provoque une chute brutale et un manque intense (ex: Crack vs Méthadone)."
     },
     {
-        "titre": "Caractère envahissant (Critères)",
+        "titre": "Quels sont les critères du caractère envahissant de l'addiction ?",
         "type": "vraies",
         "items": {
             "A": "Le temps passé à se procurer le produit augmente.",
@@ -1414,7 +1418,7 @@ questions = questions = questions = [
         "explication": "C est Faux : L'addiction envahit et détruit progressivement la vie sociale, familiale et affective."
     },
     {
-        "titre": "Classification Usage (Détails)",
+        "titre": "Concernant la classification des types d'usage :",
         "type": "vraies",
         "items": {
             "A": "L'usage expérimental est un essai ponctuel.",
@@ -1427,7 +1431,7 @@ questions = questions = questions = [
         "explication": "E est Faux : On peut avoir un usage régulier sans perte de contrôle ni craving (ex: un verre de vin à table, café le matin), même si le risque existe."
     },
     {
-        "titre": "Critères de Dépendance (CIM-10 / DSM)",
+        "titre": "Concernant les Critères de Dépendance (CIM-10 / DSM) (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "Désir puissant et compulsif (Craving).",
@@ -1440,7 +1444,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Ce n'est pas la quantité qui définit l'addiction, mais le rapport au produit (perte de liberté, conséquences), bien que la quantité soit souvent élevée."
     },
     {
-        "titre": "Neurobiologie : Structures",
+        "titre": "Quelles sont les structures neurobiologiques impliquées dans l'addiction ?",
         "type": "vraies",
         "items": {
             "A": "L'Amygdale gère les émotions et le conditionnement.",
@@ -1453,7 +1457,7 @@ questions = questions = questions = [
         "explication": "E est Faux : C'est une maladie neurobiologique complexe, pas un manque de volonté. Le 'frein' cortical est dysfonctionnel."
     },
     {
-        "titre": "Traitement et Prise en charge",
+        "titre": "Concernant le traitement et la prise en charge :",
         "type": "vraies",
         "items": {
             "A": "La prise en charge doit être multidisciplinaire (bio-psycho-sociale).",
@@ -1466,7 +1470,7 @@ questions = questions = questions = [
         "explication": "D est Faux : L'hospitalisation n'est pas systématique, beaucoup de suivis se font en ambulatoire (CSAPA)."
     },
     {
-        "titre": "Addictions sans substance",
+        "titre": "Quelles sont les addictions sans substance reconnues ?",
         "type": "vraies",
         "items": {
             "A": "Le jeu pathologique (Gambling) est reconnu comme addiction.",
@@ -1479,7 +1483,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Elles activent exactement les mêmes circuits dopaminergiques que les drogues."
     },
     {
-        "titre": "Facteurs de protection",
+        "titre": "Quels sont les facteurs de protection contre l'addiction ?",
         "type": "vraies",
         "items": {
             "A": "Bonne estime de soi.",
@@ -1492,7 +1496,7 @@ questions = questions = questions = [
         "explication": "E est Faux : L'isolement est un facteur de risque majeur."
     },
     {
-        "titre": "Pic de dopamine et Administration",
+        "titre": "Concernant le Pic de dopamine et le mode d'administration :",
         "type": "vraies",
         "items": {
             "A": "Le tabac fumé provoque un pic rapide (bolus) au cerveau.",
@@ -1505,7 +1509,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Plus ça monte vite et fort, plus le cerveau apprend l'association et plus le risque addictif est élevé."
     },
     {
-        "titre": "Risques à l'adolescence",
+        "titre": "Quels sont les risques spécifiques à l'adolescence ?",
         "type": "vraies",
         "items": {
             "A": "Le cerveau adolescent est immature (cortex préfrontal).",
@@ -1518,7 +1522,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Les adolescents sont HYPER sensibles au regard des pairs et à l'influence sociale."
     },
     {
-        "titre": "Concepts : Renforcement",
+        "titre": "Concernant les concepts de Renforcement Positif et Négatif :",
         "type": "vraies",
         "items": {
             "A": "Renforcement Positif : Recherche du plaisir (High).",
@@ -1531,7 +1535,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Le renforcement négatif, c'est le soulagement d'une souffrance (physique ou psychique)."
     },
     {
-        "titre": "Comorbidités : Lien causal",
+        "titre": "À propos du lien causal des comorbidités :",
         "type": "vraies",
         "items": {
             "A": "L'addiction peut causer un trouble psychiatrique (ex: psychose cannabique).",
@@ -1544,7 +1548,7 @@ questions = questions = questions = [
         "explication": "E est Faux : C'est une vieille idée. Aujourd'hui, on traite les deux en parallèle car la dépression empêche le maintien du sevrage."
     },
     {
-        "titre": "RDRD (Réduction des Risques)",
+        "titre": "Concernant la RDRD (Réduction des Risques) :",
         "type": "vraies",
         "items": {
             "A": "Vise à limiter les dommages sans exiger l'abstinence immédiate.",
@@ -1557,7 +1561,7 @@ questions = questions = questions = [
         "explication": "D est Faux : C'est une démarche pragmatique de santé publique pour garder les gens en vie, pas un encouragement."
     },
     {
-        "titre": "Psychothérapies",
+        "titre": "Quelles psychothérapies sont utilisées en addictologie ?",
         "type": "vraies",
         "items": {
             "A": "L'entretien motivationnel aide le patient à résoudre son ambivalence.",
@@ -1570,7 +1574,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Les TCC et l'entretien motivationnel sont les mieux validés scientifiquement dans les addictions."
     },
     {
-        "titre": "Addiction vs Habitude",
+        "titre": "Distinction Addiction vs Habitude (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "L'habitude est un comportement répété mais contrôlable.",
@@ -1583,7 +1587,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Une habitude (ex: lire le journal, boire un café) n'est pas forcément nocive. L'addiction se définit par les dommages et la perte de contrôle."
     },
     {
-        "titre": "Épigénétique",
+        "titre": "Concernant l'Épigénétique :",
         "type": "vraies",
         "items": {
             "A": "L'environnement peut modifier l'expression des gènes.",
@@ -1594,9 +1598,11 @@ questions = questions = questions = [
         },
         "correctes": ["A", "B", "D", "E"],
         "explication": "C est Faux : L'épigénétique est potentiellement réversible (c'est l'espoir des thérapies), contrairement à la séquence d'ADN pure."
-    },# --- PARTIE 5 : DROGUES, TOXICOLOGIE & PRISE EN CHARGE ---
+    },
+    
+    # --- PARTIE 5 : DROGUES, TOXICOLOGIE & PRISE EN CHARGE ---
     {
-        "titre": "Le Cannabis (Pharmacologie)",
+        "titre": "Concernant la pharmacologie du Cannabis :",
         "type": "vraies",
         "items": {
             "A": "Le THC est le principal responsable des effets psychoactifs.",
@@ -1609,7 +1615,7 @@ questions = questions = questions = [
         "explication": "B et C sont Faux : C'est l'inverse ! CB1 = Central (Cerveau), CB2 = Périphérique (Immunité). D est Faux : Demi-vie longue (44-60h) et relargage tardif."
     },
     {
-        "titre": "Cannabis et Dépistage (Permis)",
+        "titre": "Concernant le dépistage du Cannabis (Permis/Travail) :",
         "type": "vraies",
         "items": {
             "A": "On peut retrouver du cannabis dans les urines jusqu'à 3 semaines après l'arrêt chez un gros fumeur.",
@@ -1622,7 +1628,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Les urines marquent l'usage passé (métabolites), pas l'état actuel. D est Faux : C'est un dopant interdit en compétition (gardiens de but, etc.)."
     },
     {
-        "titre": "Cocaïne et Crack",
+        "titre": "À propos de la Cocaïne et du Crack :",
         "type": "vraies",
         "items": {
             "A": "La cocaïne inhibe la recapture de la dopamine, noradrénaline et sérotonine.",
@@ -1635,7 +1641,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Le Crack se fume (inhalation des vapeurs) ou s'injecte. D est Faux : Les effets du Crack/fumé sont fulgurants (5-10 secondes), plus rapides que le sniff ou l'IV."
     },
     {
-        "titre": "Opiacés (Pharmacologie)",
+        "titre": "Concernant la pharmacologie des Opiacés :",
         "type": "vraies",
         "items": {
             "A": "L'activation des récepteurs Mu entraîne analgésie et dépression respiratoire.",
@@ -1648,7 +1654,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Les opiacés (Mu et Kappa) entraînent un MYOSIS (pupilles en tête d'épingle). La mydriase est liée au manque ou aux récepteurs Delta (agitation)."
     },
     {
-        "titre": "Traitements de substitution aux opiacés (TSO)",
+        "titre": "Concernant les Traitements de substitution aux opiacés (TSO) :",
         "type": "vraies",
         "items": {
             "A": "La Méthadone est un agoniste pur des récepteurs Mu.",
@@ -1661,7 +1667,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Ils s'administrent par voie ORALE (sirop, comprimé). E est Faux : La méthadone entraîne une forte dépendance physique, mais elle est contrôlée et stabilise le patient."
     },
     {
-        "titre": "Définitions (Pharmakon & Addiction)",
+        "titre": "Concernant les définitions (Pharmakon & Addiction) :",
         "type": "vraies",
         "items": {
             "A": "Pharmakon signifie à la fois remède et poison.",
@@ -1674,7 +1680,7 @@ questions = questions = questions = [
         "explication": "B est Faux : La quantité n'est pas le critère principal (cf DSM-5). D est Faux : On peut être dépendant physiquement (ex: traitement morphine) sans être addict (pas de perte de contrôle/craving)."
     },
     {
-        "titre": "Critères DSM-5 (Sévérité)",
+        "titre": "À propos des Critères DSM-5 (Sévérité) - Cochez les ERREURS :",
         "type": "fausses",
         "items": {
             "A": "Il y a 11 critères diagnostiques.",
@@ -1687,7 +1693,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Dès 6 critères, l'addiction est classée comme sévère."
     },
     {
-        "titre": "Alcool et Neurobiologie",
+        "titre": "Concernant l'Alcool et la Neurobiologie :",
         "type": "vraies",
         "items": {
             "A": "L'alcool est un dépresseur du système nerveux central.",
@@ -1700,7 +1706,7 @@ questions = questions = questions = [
         "explication": "D est Faux : L'alcool STIMULE le GABA (inhibiteur) et INHIBE le Glutamate (excitateur). En chronique, le cerveau compense en augmentant le Glutamate, d'où l'hyperexcitabilité au sevrage."
     },
     {
-        "titre": "Interactions Alcool-Médicaments",
+        "titre": "Quelles sont les interactions médicamenteuses majeures avec l'alcool ?",
         "type": "vraies",
         "items": {
             "A": "L'alcool potentialise l'effet sédatif des benzodiazépines.",
@@ -1713,7 +1719,7 @@ questions = questions = questions = [
         "explication": "E est Faux : L'alcool AUGMENTE le risque d'hypoglycémie (inhibition néoglucogenèse)."
     },
     {
-        "titre": "Traitements de l'alcoolodépendance",
+        "titre": "Concernant les traitements de l'alcoolodépendance :",
         "type": "vraies",
         "items": {
             "A": "Les Benzodiazépines sont utilisées pour le sevrage (prévention Delirium Tremens).",
@@ -1726,7 +1732,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Le Disulfiram (effet antabuse violent) est très peu utilisé car dangereux si re-consommation."
     },
     {
-        "titre": "Tabac et Chicha",
+        "titre": "À propos du Tabac et de la Chicha :",
         "type": "vraies",
         "items": {
             "A": "Le tabac est la première cause de mortalité évitable.",
@@ -1739,7 +1745,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Une session de chicha équivaut à 20-25 cigarettes (voire plus en volume de fumée et CO)."
     },
     {
-        "titre": "Nouvelles drogues et pratiques",
+        "titre": "Concernant les nouvelles drogues et pratiques :",
         "type": "vraies",
         "items": {
             "A": "Le Purple Drank est un mélange de codéine et d'antihistaminique.",
@@ -1752,7 +1758,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Le Protoxyde d'azote provoque des atteintes neurologiques graves (myélite, sclérose) par carence en Vitamine B12."
     },
     {
-        "titre": "Score de Cushman (Alcool)",
+        "titre": "Concernant le Score de Cushman (Alcool) - Cochez les ERREURS :",
         "type": "fausses",
         "items": {
             "A": "Il évalue l'intensité du syndrome de sevrage alcoolique.",
@@ -1765,7 +1771,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Un score élevé (>15) indique un sevrage SÉVÈRE avec risque de Delirium Tremens."
     },
     {
-        "titre": "Comorbidités et Pathologies Duelles",
+        "titre": "À propos des Comorbidités et Pathologies Duelles :",
         "type": "vraies",
         "items": {
             "A": "Une pathologie duelle associe une addiction et un trouble psychiatrique.",
@@ -1778,7 +1784,7 @@ questions = questions = questions = [
         "explication": "C est Faux : 20% des patients en addictologie ont un TDAH, c'est une comorbidité fréquente."
     },
     {
-        "titre": "Arbre des dépendances (Concept)",
+        "titre": "Concernant l'Arbre des dépendances (Concept) :",
         "type": "vraies",
         "items": {
             "A": "Les branches représentent les objets d'addiction (alcool, jeu, tabac...).",
@@ -1791,7 +1797,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Si on ne traite pas le fond (racines), une autre addiction remplacera la première."
     },
     {
-        "titre": "Conséquences somatiques de l'alcool (Recherchez les ERREURS)",
+        "titre": "Quelles sont les conséquences somatiques de l'alcool (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "Pancréatite chronique calcifiante.",
@@ -1804,7 +1810,7 @@ questions = questions = questions = [
         "explication": "E est Faux : L'alcool entraîne une atrophie testiculaire et une féminisation (gynécomastie)."
     },
     {
-        "titre": "Traitement de la Cocaïne",
+        "titre": "Concernant le traitement de la Cocaïne :",
         "type": "vraies",
         "items": {
             "A": "Il existe un traitement de substitution officiel pour la cocaïne.",
@@ -1817,7 +1823,7 @@ questions = questions = questions = [
         "explication": "A est Faux : Aucun traitement de substitution validé. E est Faux : Le sevrage cocaïne est épuisant (crash) et dépressif, mais rarement mortel physiquement, contrairement au sevrage alcool/BZD."
     },
     {
-        "titre": "Benzodiazépines et Demi-vies",
+        "titre": "À propos des Benzodiazépines et de leur demi-vie :",
         "type": "vraies",
         "items": {
             "A": "Les BZD à demi-vie courte sont plus addictogènes (effet pic).",
@@ -1830,7 +1836,7 @@ questions = questions = questions = [
         "explication": "Tout est vrai. On préfère les molécules à demi-vie longue pour le sevrage afin de lisser les taux plasmatiques."
     },
     {
-        "titre": "Héroïne vs Méthadone (Pharmacocinétique)",
+        "titre": "Comparaison Héroïne vs Méthadone (Pharmacocinétique) :",
         "type": "vraies",
         "items": {
             "A": "L'héroïne a une demi-vie courte et un effet flash.",
@@ -1843,7 +1849,7 @@ questions = questions = questions = [
         "explication": "C est Faux : La méthadone donne un plateau stable, ce qui permet la réinsertion sociale, contrairement aux pics/vallées de l'héroïne."
     },
     {
-        "titre": "Statistiques France (Ordres de grandeur)",
+        "titre": "Statistiques des drogues en France (Cochez les ERREURS) :",
         "type": "fausses",
         "items": {
             "A": "47 millions de français boivent de l'alcool.",
@@ -1856,7 +1862,7 @@ questions = questions = questions = [
         "explication": "C est Faux : L'héroïne a un marché très faible (50 000 à 600 000 selon les sources, mais bien moins que Cannabis/Cocaine). C'est le Cannabis la drogue illicite la plus consommée."
     },
     {
-        "titre": "Syndrome d'alcoolisme fœtal",
+        "titre": "Concernant le Syndrome d'alcoolisme fœtal :",
         "type": "vraies",
         "items": {
             "A": "Il est la première cause de handicap mental non génétique.",
@@ -1869,7 +1875,7 @@ questions = questions = questions = [
         "explication": "C est Faux : Le cerveau se développe jusqu'à la fin, l'alcool est toxique tout le temps."
     },
     {
-        "titre": "Neuromédiateurs de l'addiction",
+        "titre": "Quels sont les rôles des neuromédiateurs de l'addiction ?",
         "type": "vraies",
         "items": {
             "A": "Dopamine = Plaisir, Récompense.",
@@ -1882,7 +1888,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Le manque crée une souffrance et le déséquilibre persiste longtemps, poussant à la rechute."
     },
     {
-        "titre": "Ecstasy (MDMA)",
+        "titre": "Concernant l'Ecstasy (MDMA) :",
         "type": "vraies",
         "items": {
             "A": "C'est un psychostimulant et un perturbateur.",
@@ -1895,7 +1901,7 @@ questions = questions = questions = [
         "explication": "D est Faux : Risque majeur de déshydratation et d'hyperthermie en milieu festif."
     },
     {
-        "titre": "Sevrage alcoolique (Formes)",
+        "titre": "À propos des formes cliniques du sevrage alcoolique :",
         "type": "vraies",
         "items": {
             "A": "Forme mineure : tremblements, anxiété, sueurs.",
@@ -1908,7 +1914,7 @@ questions = questions = questions = [
         "explication": "E est Faux : Les crises (Grand Mal) surviennent souvent au début du sevrage (24-48h), parfois avant le DT."
     },
     {
-        "titre": "Calculs Alcoolémie (Cas pratique)",
+        "titre": "Cas pratique : Calculs d'alcoolémie :",
         "type": "vraies",
         "items": {
             "A": "Un verre standard fait monter l'alcoolémie d'environ 0,20 à 0,25 g/L.",
@@ -1921,7 +1927,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Il faut environ 1h pour éliminer un verre (0,15 à 0,20 g/L éliminés par heure). D est Faux : Ça ralentit l'absorption (pic moins haut) mais n'annule pas la quantité d'alcool."
     },
     {
-        "titre": "Cocaïne et alcool (Cocaéthylène)",
+        "titre": "Concernant l'interaction Cocaïne et Alcool (Cocaéthylène) :",
         "type": "vraies",
         "items": {
             "A": "Le mélange forme un métabolite spécifique : le Cocaéthylène.",
@@ -1934,7 +1940,7 @@ questions = questions = questions = [
         "explication": "B est Faux : Le cocaéthylène est BEAUCOUP plus toxique pour le cœur."
     },
     {
-        "titre": "Substances et Récepteurs (Quiz)",
+        "titre": "Quiz : Associez Substances et Récepteurs :",
         "type": "vraies",
         "items": {
             "A": "Nicotine -> Récepteurs nicotiniques à l'acétylcholine.",
@@ -1947,7 +1953,7 @@ questions = questions = questions = [
         "explication": "E est Faux : La cocaïne bloque la recapture des monoamines (DA, NA, 5HT), elle n'agit pas directement sur le GABA."
     },
     {
-        "titre": "Marqueurs biologiques spécifiques",
+        "titre": "Quels marqueurs biologiques spécifiques sont utilisés ?",
         "type": "vraies",
         "items": {
             "A": "CDT (Transferrine déficiente en carbohydrate) pour l'alcool chronique.",
@@ -1960,7 +1966,7 @@ questions = questions = questions = [
         "explication": "E est Faux : La glycémie n'est pas un marqueur de consommation de cocaïne."
     },
     {
-        "titre": "Risques infectieux",
+        "titre": "Quels sont les risques infectieux liés aux drogues ?",
         "type": "vraies",
         "items": {
             "A": "L'injection intraveineuse expose au VIH et au VHC.",
@@ -1973,7 +1979,7 @@ questions = questions = questions = [
         "explication": "Le VHC est très résistant et se transmet par le sang (micro-lésions nasales ou lèvres brûlées par la pipe)."
     },
     {
-        "titre": "Traitement de l'urgence (Antidotes)",
+        "titre": "Concernant les traitements d'urgence (Antidotes) :",
         "type": "vraies",
         "items": {
             "A": "Naloxone pour l'overdose d'héroïne/opiacés.",
@@ -1985,8 +1991,6 @@ questions = questions = questions = [
         "correctes": ["A", "B", "C", "D"],
         "explication": "E est Faux : L'alcool aggrave les effets du cannabis (potentialisation)."
     }
-    
-    
 ]
 # --- INITIALISATION DES ETATS (Session State) ---
 if 'quiz_started' not in st.session_state:
