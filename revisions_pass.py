@@ -4243,7 +4243,796 @@ questions_toxiques = [
         "correctes": ["A", "B", "C", "D"],
         "explication": "E est Faux : Risque de redistribution vers le cerveau si mal géré, risque rénal pour l'EDTA, allergies, etc."
     }
+]# --- BANQUE DE QUESTIONS : ÉTHERS DE GLYCOL ---
+questions_ethers = [
+    {
+        "titre": "Propriétés physico-chimiques des éthers de glycol :",
+        "type": "vraies",
+        "items": {
+            "A": "Ce sont des liquides incolores à odeur agréable.",
+            "B": "Ils sont amphiphiles (solubles dans l'eau et les graisses).",
+            "C": "Ils ne franchissent pas la barrière cutanée.",
+            "D": "Ce sont des solvants aprotiques.",
+            "E": "Ils sont ininflammables."
+        },
+        "correctes": ["A", "B", "D"],
+        "explication": "C est Faux : Ils passent très bien la barrière cutanée. E est Faux : Ils sont inflammables."
+    },
+    {
+        "titre": "Classification des éthers de glycol (Séries E et P) :",
+        "type": "vraies",
+        "items": {
+            "A": "La série E dérive de l'éthylène glycol.",
+            "B": "La série P dérive du propylène glycol.",
+            "C": "Le Méthyl Glycol et l'Ethyl Glycol appartiennent à la série E.",
+            "D": "La série P comprend deux isomères (alpha et beta).",
+            "E": "La toxicité est identique pour les deux séries."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : Les séries n'ont pas le même profil métabolique ni la même toxicité (l'isomère bêta de la série P est généralement moins toxique)."
+    },
+    {
+        "titre": "Toxicocinétique : Absorption des éthers de glycol",
+        "type": "vraies",
+        "items": {
+            "A": "L'absorption cutanée est très importante.",
+            "B": "L'absorption pulmonaire est proportionnelle à la concentration atmosphérique.",
+            "C": "L'absorption cutanée est proportionnelle à la masse molaire.",
+            "D": "Ils passent la barrière foeto-placentaire.",
+            "E": "Ils ne sont pas absorbés par voie digestive."
+        },
+        "correctes": ["A", "B", "D"],
+        "explication": "C est Faux : Elle est inversement proportionnelle à la masse molaire (plus c'est petit, mieux ça passe). E est Faux : Ils sont bien absorbés par voie digestive."
+    },
+    {
+        "titre": "Métabolisme des éthers de glycol de la série E :",
+        "type": "vraies",
+        "items": {
+            "A": "La voie principale est l'oxydation par l'Alcool Déshydrogénase (ADH).",
+            "B": "Ils sont transformés en alcoxyaldéhydes puis en alcoxyacides.",
+            "C": "Les métabolites acides (alcoxyacides) sont responsables de la toxicité.",
+            "D": "Le métabolisme est rapide, mais l'élimination des métabolites est lente.",
+            "E": "Ils sont éliminés tels quels sans transformation."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "C'est l'accumulation des métabolites acides (causée par une demi-vie longue d'élimination) qui crée la toxicité."
+    },
+    {
+        "titre": "Symptômes de l'intoxication aiguë aux éthers de glycol :",
+        "type": "vraies",
+        "items": {
+            "A": "Dépression du système nerveux central (SNC).",
+            "B": "Acidose métabolique.",
+            "C": "Insuffisance rénale aiguë (toxicité tubulaire).",
+            "D": "Hyperactivité et convulsions immédiates.",
+            "E": "Troubles de la conscience pouvant aller jusqu'au coma."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "Le tableau clinique associe atteinte neuro, métabolique (acidose) et rénale."
+    },
+    {
+        "titre": "Toxicité chronique hématologique des éthers de glycol :",
+        "type": "vraies",
+        "items": {
+            "A": "Ils peuvent provoquer une anémie.",
+            "B": "Ils peuvent provoquer une leucopénie.",
+            "C": "Les cytopénies sont généralement irréversibles.",
+            "D": "La toxicité médullaire est un risque connu.",
+            "E": "Ils provoquent une augmentation des plaquettes."
+        },
+        "correctes": ["A", "B", "D"],
+        "explication": "C est Faux : Les cytopénies sont réversibles à l'arrêt de l'exposition."
+    },
+    {
+        "titre": "Toxicité chronique sur la reproduction (Éthers de glycol) :",
+        "type": "vraies",
+        "items": {
+            "A": "Certains sont classés reprotoxiques de catégorie 2.",
+            "B": "Chez l'homme : risque d'oligospermie.",
+            "C": "Chez la femme : troubles du cycle menstruel.",
+            "D": "Risque de malformations congénitales (tératogénicité).",
+            "E": "Aucun risque d'avortement spontané n'a été décrit."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : Le risque d'avortement spontané (fausse couche) est avéré."
+    },
+    {
+        "titre": "Traitement spécifique d'une intoxication aux éthers de glycol :",
+        "type": "vraies",
+        "items": {
+            "A": "Il n'existe aucun antidote.",
+            "B": "L'administration de Fomépizole est indiquée.",
+            "C": "L'administration d'éthanol est une alternative.",
+            "D": "Le but est de bloquer l'enzyme ADH.",
+            "E": "L'épuration extra-rénale (dialyse) peut être nécessaire."
+        },
+        "correctes": ["B", "C", "D", "E"],
+        "explication": "Comme pour le méthanol ou l'éthylène glycol, on bloque l'ADH pour empêcher la formation des métabolites acides toxiques."
+    },
+    {
+        "titre": "Prévention et biométrologie des éthers de glycol :",
+        "type": "vraies",
+        "items": {
+            "A": "La substitution des produits les plus dangereux est prioritaire.",
+            "B": "Les gants en latex offrent la meilleure protection.",
+            "C": "On peut doser les métabolites (ex: acide méthoxyacétique) dans les urines.",
+            "D": "La mesure des concentrations atmosphériques est utile.",
+            "E": "Il faut stocker les produits dans des récipients ouverts pour aérer."
+        },
+        "correctes": ["A", "C", "D"],
+        "explication": "B est Faux : Il faut des gants en CAOUTCHOUC. E est Faux : Récipients métalliques FERMÉS."
+    },
+    {
+        "titre": "Concernant l'élimination des éthers de glycol :",
+        "type": "vraies",
+        "items": {
+            "A": "Elle est majoritairement urinaire.",
+            "B": "L'élimination se fait sous forme de CO2 expiré principalement.",
+            "C": "Les métabolites acides sont éliminés dans les urines.",
+            "D": "Plus la chaîne est longue, plus l'élimination est difficile.",
+            "E": "La demi-vie d'élimination des métabolites est courte (moins d'1h)."
+        },
+        "correctes": ["A", "C"],
+        "explication": "D est Faux : Plus la chaîne est longue, plus le métabolite est facilement éliminé. E est Faux : Demi-vie longue (7 à 40h)."
+    },
+    {
+        "titre": "Sources d'exposition aux éthers de glycol :",
+        "type": "vraies",
+        "items": {
+            "A": "Peintures et vernis.",
+            "B": "Produits cosmétiques (laques, colorations).",
+            "C": "Carburants aéronautiques.",
+            "D": "Produits phytosanitaires.",
+            "E": "Uniquement dans l'industrie lourde."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "On les trouve aussi dans des produits domestiques et cosmétiques."
+    },
+    {
+        "titre": "Toxicité neurologique chronique des éthers de glycol :",
+        "type": "vraies",
+        "items": {
+            "A": "Troubles de la concentration.",
+            "B": "Somnolence et apathie.",
+            "C": "Tremblements.",
+            "D": "Troubles de la marche.",
+            "E": "Hyperacousie."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : On décrit plutôt des troubles de l'audition, mais pas spécifiquement une hyperacousie."
+    },
+    {
+        "titre": "Interactions métaboliques :",
+        "type": "vraies",
+        "items": {
+            "A": "Les enzymes du métabolisme sont saturables.",
+            "B": "L'alcool éthylique (boisson) n'a aucune influence sur leur métabolisme.",
+            "C": "La consommation d'alcool peut ralentir le métabolisme des éthers de glycol.",
+            "D": "L'inhibition de l'ADH augmente la toxicité.",
+            "E": "Les métabolites sont des sulfoconjugués (phase 2)."
+        },
+        "correctes": ["A", "C", "E"],
+        "explication": "D est Faux : L'inhibition de l'ADH DIMINUE la toxicité car elle empêche la formation des acides toxiques."
+    },
+    {
+        "titre": "Voies d'exposition en milieu professionnel :",
+        "type": "vraies",
+        "items": {
+            "A": "L'inhalation de vapeurs est une voie majeure.",
+            "B": "Le contact cutané (liquide) est une voie majeure.",
+            "C": "L'ingestion accidentelle est la cause la plus fréquente.",
+            "D": "Le port de masque à cartouches est une protection collective.",
+            "E": "L'encoffrement des machines est une protection collective."
+        },
+        "correctes": ["A", "B", "E"],
+        "explication": "C est Faux : L'ingestion est rare. D est Faux : Le masque est une protection INDIVIDUELLE."
+    },
+    {
+        "titre": "Propriétés métaboliques spécifiques (Série P) :",
+        "type": "vraies",
+        "items": {
+            "A": "L'isomère alpha donne un alcool secondaire.",
+            "B": "L'isomère béta donne un alcool primaire.",
+            "C": "L'alcool secondaire est transformé en cétone moins toxique.",
+            "D": "L'alcool primaire est transformé en acide toxique.",
+            "E": "La série P est globalement plus toxique que la série E."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : La série P (surtout isomère alpha majoritaire) est souvent considérée comme moins toxique car elle forme moins d'acides."
+    },
+    {
+        "titre": "Concernant l'utilisation des éthers de glycol :",
+        "type": "vraies",
+        "items": {
+            "A": "Environ 30 éthers de glycol sont exploités industriellement.",
+            "B": "Leur consommation est en baisse constante.",
+            "C": "Ils sont utilisés dans les produits d'entretien (lave-vitre).",
+            "D": "Les 4 éthers les plus toxiques sont interdits dans les cosmétiques et médicaments.",
+            "E": "Ils sont utilisés comme antigel alimentaire."
+        },
+        "correctes": ["A", "C", "D"],
+        "explication": "D est Vrai : Une mesure de prévention importante pour le grand public."
+    },
+    {
+        "titre": "Signes métaboliques de l'intoxication aiguë :",
+        "type": "vraies",
+        "items": {
+            "A": "Alcalose respiratoire.",
+            "B": "Acidose métabolique.",
+            "C": "Trou anionique élevé.",
+            "D": "Hyperventilation compensatrice.",
+            "E": "Hypoglycémie sévère."
+        },
+        "correctes": ["B", "C", "D"],
+        "explication": "L'acidose métabolique est due à l'accumulation des alcoxyacides."
+    },
+    {
+        "titre": "Indicateurs biologiques d'exposition (IBE) :",
+        "type": "vraies",
+        "items": {
+            "A": "On dose l'éther de glycol inchangé dans le sang.",
+            "B": "On dose les métabolites acides dans les urines.",
+            "C": "Pour l'EGME, on dose l'acide 2-méthoxyacétique.",
+            "D": "Le dosage se fait en début de poste.",
+            "E": "Ces dosages permettent d'évaluer l'exposition interne."
+        },
+        "correctes": ["B", "C", "E"],
+        "explication": "Le dosage urinaire des métabolites est la méthode de référence."
+    },
+    {
+        "titre": "Toxicité rénale des éthers de glycol :",
+        "type": "vraies",
+        "items": {
+            "A": "Elle est liée à une obstruction des voies urinaires.",
+            "B": "C'est une toxicité tubulaire.",
+            "C": "Elle peut entraîner une polyurie par hyperosmolarité.",
+            "D": "Elle conduit à une insuffisance rénale.",
+            "E": "Elle est irréversible."
+        },
+        "correctes": ["B", "C", "D"],
+        "explication": "L'atteinte est tubulaire et métabolique."
+    },
+    {
+        "titre": "Comparaison Éthers de glycol / Solvants chlorés :",
+        "type": "vraies",
+        "items": {
+            "A": "Les deux sont des dépresseurs du SNC.",
+            "B": "Les deux peuvent être hépatotoxiques.",
+            "C": "Les éthers de glycol sont plus volatils que les solvants chlorés.",
+            "D": "Les éthers de glycol sont solubles dans l'eau, contrairement à la plupart des solvants chlorés.",
+            "E": "Les deux nécessitent une protection cutanée."
+        },
+        "correctes": ["A", "B", "D", "E"],
+        "explication": "C est Faux : Les solvants chlorés sont généralement plus volatils. La solubilité dans l'eau est une caractéristique clé des éthers de glycol (amphiphiles)."
+    }
 ]
+
+# --- BANQUE DE QUESTIONS : SOLVANTS CHLORÉS ---
+questions_chlores = [
+    {
+        "titre": "Propriétés physico-chimiques des solvants chlorés :",
+        "type": "vraies",
+        "items": {
+            "A": "Ce sont des dérivés halogénés.",
+            "B": "Ils sont très inflammables.",
+            "C": "Ils sont très volatils.",
+            "D": "S'ils sont chauffés (>400°C), ils peuvent dégager du Phosgène (gaz toxique).",
+            "E": "Leur emploi est en augmentation constante."
+        },
+        "correctes": ["A", "C", "D"],
+        "explication": "B est Faux : Ils sont PEU inflammables. E est Faux : Emploi limité à cause de leur toxicité."
+    },
+    {
+        "titre": "Métabolisme du Dichlorométhane :",
+        "type": "vraies",
+        "items": {
+            "A": "Il est métabolisé en Monoxyde de Carbone (CO).",
+            "B": "Il provoque une formation de carboxyhémoglobine (HbCO).",
+            "C": "Il est métabolisé en époxyde.",
+            "D": "Son élimination est principalement rénale.",
+            "E": "90% est éliminé par voie respiratoire sous forme inchangée."
+        },
+        "correctes": ["A", "B", "E"],
+        "explication": "C est Faux : C'est le trichloréthylène qui fait des époxydes. D est Faux : Élimination respiratoire majoritaire."
+    },
+    {
+        "titre": "Toxicité aiguë du Trichloréthylène :",
+        "type": "vraies",
+        "items": {
+            "A": "Dépression du SNC (narcose, ébriété).",
+            "B": "Hyperexcitabilité cardiaque (troubles du rythme).",
+            "C": "Effet bathmotrope positif.",
+            "D": "Risque d'hépatite cytolytique massive immédiate.",
+            "E": "Dermite irritative."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "Les troubles de l'excitabilité cardiaque sont un risque spécifique et grave."
+    },
+    {
+        "titre": "Toxicité du Tétrachlorure de Carbone (CCl4) :",
+        "type": "vraies",
+        "items": {
+            "A": "C'est un puissant hépatotoxique (stéatose, cytolyse).",
+            "B": "Il est très néphrotoxique (tubulopathie aiguë).",
+            "C": "Il est utilisé couramment en pressing de nos jours.",
+            "D": "Il est moins toxique que le dichlorométhane.",
+            "E": "Il provoque des nécroses hépatiques."
+        },
+        "correctes": ["A", "B", "E"],
+        "explication": "C est Faux : Son usage est très restreint/interdit à cause de sa toxicité majeure. C'est l'un des plus toxiques."
+    },
+    {
+        "titre": "Toxicité du Chlorure de Vinyle (monomère) :",
+        "type": "vraies",
+        "items": {
+            "A": "Il est classé cancérogène certain (Groupe 1 par le CIRC).",
+            "B": "Il provoque des angiosarcomes hépatiques.",
+            "C": "Il peut causer le syndrome de Raynaud (trouble vasculaire des doigts).",
+            "D": "Il provoque une acro-ostéolyse (atteinte osseuse des extrémités).",
+            "E": "Il est inoffensif pour le foie."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "C'est un toxique industriel majeur avec des effets spécifiques (syndrome de Raynaud, ostéolyse, cancer du foie)."
+    },
+    {
+        "titre": "Traitement de l'intoxication aiguë aux solvants chlorés :",
+        "type": "vraies",
+        "items": {
+            "A": "Administration d'adrénaline en cas de malaise cardiaque.",
+            "B": "Oxygénothérapie et ventilation assistée.",
+            "C": "Lavage gastrique en cas d'ingestion.",
+            "D": "Administration de N-acétylcystéine (protecteur hépatique).",
+            "E": "Administration de bêta-bloquants pour le trichloréthylène."
+        },
+        "correctes": ["B", "C", "D", "E"],
+        "explication": "A est Faux : L'adrénaline est CONTRE-INDIQUÉE car le cœur est hyper-excitable, cela provoquerait une fibrillation ventriculaire."
+    },
+    {
+        "titre": "Voies d'absorption des solvants chlorés :",
+        "type": "vraies",
+        "items": {
+            "A": "La voie respiratoire est la plus importante.",
+            "B": "L'absorption digestive est lente et faible.",
+            "C": "L'absorption cutanée est possible.",
+            "D": "Ils traversent la barrière hémato-encéphalique (liposolubles).",
+            "E": "Ils traversent la barrière foeto-placentaire."
+        },
+        "correctes": ["A", "C", "D", "E"],
+        "explication": "B est Faux : L'absorption digestive est élevée et rapide, bien que ce soit une voie rare (accidentelle)."
+    },
+    {
+        "titre": "Métabolisme hépatique des solvants chlorés :",
+        "type": "vraies",
+        "items": {
+            "A": "Ils sont métabolisés par le cytochrome P450 (CYP2E1).",
+            "B": "Ce sont des inducteurs enzymatiques.",
+            "C": "Le métabolisme réduit toujours leur toxicité.",
+            "D": "La formation d'époxydes est une voie d'activation toxique.",
+            "E": "Le métabolisme peut saturer."
+        },
+        "correctes": ["A", "B", "D", "E"],
+        "explication": "C est Faux : Le métabolisme crée souvent des composés plus réactifs et toxiques (époxydes, radicaux libres)."
+    },
+    {
+        "titre": "Symptômes neurologiques de l'intoxication aiguë :",
+        "type": "vraies",
+        "items": {
+            "A": "Syndrome ébrieux (comme l'alcool).",
+            "B": "Narcose (endormissement).",
+            "C": "Convulsions.",
+            "D": "Neuropathies trigéminales ou optiques.",
+            "E": "Hypervigilance."
+        },
+        "correctes": ["A", "B", "D"],
+        "explication": "Ce sont des dépresseurs du système nerveux central, ils causent somnolence et coma, pas d'hypervigilance."
+    },
+    {
+        "titre": "Toxicité chronique des solvants chlorés :",
+        "type": "vraies",
+        "items": {
+            "A": "Dermatoses d'irritation (peau sèche).",
+            "B": "Troubles de la mémoire et du comportement (SNC).",
+            "C": "Cytolyse hépatique.",
+            "D": "Cancer (leucémies, lymphomes, foie).",
+            "E": "Amélioration des réflexes."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "L'exposition à long terme affecte le cerveau, le foie, la peau et est cancérigène."
+    },
+    {
+        "titre": "Prévention technique et médicale (Solvants chlorés) :",
+        "type": "vraies",
+        "items": {
+            "A": "Travail sous hotte aspirante (protection collective).",
+            "B": "Surveillance des VLEP (Valeurs Limites d'Exposition Professionnelle).",
+            "C": "Réaction de Fujiwara-Ross pour la détection colorimétrique.",
+            "D": "Surveillance médicale tous les 5 ans.",
+            "E": "Étiquetage et stockage sécurisé."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "D est Faux : Surveillance médicale à l'embauche puis tous les 6 mois."
+    },
+    {
+        "titre": "Le Chloroforme (CHCl3) :",
+        "type": "vraies",
+        "items": {
+            "A": "Ancien anesthésique.",
+            "B": "Peu toxique pour le foie.",
+            "C": "Hépatotoxique et néphrotoxique.",
+            "D": "Pouvoir ébrionarcotique très fort (+++).",
+            "E": "Utilisé comme solvant industriel."
+        },
+        "correctes": ["A", "C", "D", "E"],
+        "explication": "B est Faux : Il est connu pour provoquer des hépatites cytolytiques et des nécroses rénales."
+    },
+    {
+        "titre": "Intoxication au Dichlorométhane (Décapant peinture) :",
+        "type": "vraies",
+        "items": {
+            "A": "C'est le moins volatil des solvants chlorés.",
+            "B": "Il provoque une intoxication au monoxyde de carbone (CO) endogène.",
+            "C": "On peut observer des taux de carboxyhémoglobine (HbCO) jusqu'à 30%.",
+            "D": "Il est classé cancérogène possible (2B) par le CIRC.",
+            "E": "Le traitement inclut l'oxygénothérapie."
+        },
+        "correctes": ["B", "C", "D", "E"],
+        "explication": "A est Faux : C'est un liquide très volatil. La production de CO est sa signature toxique unique."
+    },
+    {
+        "titre": "Cancer et solvants chlorés :",
+        "type": "vraies",
+        "items": {
+            "A": "Le trichloréthylène est classé Groupe 1 (Cancérogène certain).",
+            "B": "Le chlorure de vinyle est classé Groupe 1.",
+            "C": "Le tétrachloroéthylène est classé Groupe 2A (Probable).",
+            "D": "Ils provoquent uniquement des cancers du poumon.",
+            "E": "Les organes cibles sont le foie, le rein et le système hématopoïétique."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "D est Faux : Ils causent des cancers du foie (angiosarcome), du rein, des lymphomes/leucémies."
+    },
+    {
+        "titre": "Analyses toxicologiques (Solvants chlorés) :",
+        "type": "vraies",
+        "items": {
+            "A": "Le dosage sanguin se fait par GC-FID ou GC-MS (Chromatographie gazeuse).",
+            "B": "On dose les métabolites dans le sang uniquement.",
+            "C": "On dose les solvants inchangés dans le sang.",
+            "D": "On dose les métabolites dans les urines.",
+            "E": "La réaction de Fujiwara-Ross est une méthode de dosage précise."
+        },
+        "correctes": ["A", "C", "D"],
+        "explication": "E est Faux : C'est une méthode colorimétrique de dépistage/détection (rose/rouge), pas un dosage précis."
+    },
+    {
+        "titre": "Facteurs aggravant la toxicité des solvants chlorés :",
+        "type": "vraies",
+        "items": {
+            "A": "La consommation d'alcool (induction enzymatique).",
+            "B": "L'obésité (stockage dans les graisses).",
+            "C": "L'hypoxie.",
+            "D": "L'effort physique (augmentation du débit respiratoire et cardiaque).",
+            "E": "La prise de médicaments inhibiteurs du CYP2E1."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : Ce sont les INDUCTEURS (comme l'alcool) qui augmentent la production de métabolites toxiques via le CYP2E1."
+    },
+    {
+        "titre": "Élimination des solvants chlorés :",
+        "type": "vraies",
+        "items": {
+            "A": "La majorité est éliminée par les reins.",
+            "B": "La majorité est éliminée par les poumons (air expiré) sous forme inchangée.",
+            "C": "Le chlorure de méthylène est éliminé à 90% par voie respiratoire.",
+            "D": "Le trichloréthylène est peu éliminé par voie respiratoire (10%).",
+            "E": "L'élimination dépend de la volatilité et de la liposolubilité."
+        },
+        "correctes": ["B", "C", "D", "E"],
+        "explication": "A est Faux : C'est la voie respiratoire qui prime pour la forme inchangée, la voie rénale est pour les métabolites."
+    },
+    {
+        "titre": "Symptômes cardiaques du Trichloréthylène :",
+        "type": "vraies",
+        "items": {
+            "A": "Bradycardie.",
+            "B": "Hyperexcitabilité ventriculaire.",
+            "C": "Fibrillation ventriculaire possible.",
+            "D": "Sensibilisation du myocarde aux catécholamines endogènes.",
+            "E": "Hypertension sévère."
+        },
+        "correctes": ["B", "C", "D"],
+        "explication": "C'est un risque de mort subite par trouble du rythme ('bathmotrope positif')."
+    },
+    {
+        "titre": "Utilisations industrielles des solvants chlorés :",
+        "type": "vraies",
+        "items": {
+            "A": "Dégraissage des métaux.",
+            "B": "Nettoyage à sec (pressings).",
+            "C": "Décapage de peintures.",
+            "D": "Industrie du froid (fluides frigorigènes).",
+            "E": "Additifs alimentaires."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : Ce sont des produits toxiques, jamais alimentaires."
+    },
+    {
+        "titre": "Protection individuelle contre les solvants chlorés :",
+        "type": "vraies",
+        "items": {
+            "A": "Masque à poussière simple.",
+            "B": "Masque à cartouche filtrante adaptée (gaz organiques).",
+            "C": "Gants en matériaux résistants (PVA, Viton).",
+            "D": "Les gants en latex sont recommandés.",
+            "E": "Combinaison de protection."
+        },
+        "correctes": ["B", "C", "E"],
+        "explication": "A est Faux (ce sont des gaz/vapeurs). D est Faux : Le latex est souvent perméable aux solvants chlorés, il faut des matériaux spécifiques."
+    }
+]# --- BANQUE DE QUESTIONS : LE PLOMB (SATURNISME) ---
+questions_plomb = [
+    {
+        "titre": "Propriétés physico-chimiques et sources du Plomb :",
+        "type": "vraies",
+        "items": {
+            "A": "C'est un métal lourd fondant à basse température (327°C).",
+            "B": "Il a une forte affinité pour les fonctions thiols (cystéine).",
+            "C": "Il est utilisé dans les batteries (accumulateurs) et les peintures (minium, céruse).",
+            "D": "Il ne traverse pas le placenta.",
+            "E": "La limite de qualité dans l'eau de boisson est de 10 µg/L."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "D est Faux : Il passe facilement la barrière placentaire."
+    },
+    {
+        "titre": "Concernant l'absorption et le transport du Plomb :",
+        "type": "vraies",
+        "items": {
+            "A": "L'absorption digestive est de 10% chez l'adulte et 40-50% chez l'enfant.",
+            "B": "L'absorption pulmonaire est d'environ 35%.",
+            "C": "Dans le sang, il se fixe majoritairement sur les protéines plasmatiques.",
+            "D": "La concentration intra-érythrocytaire est 16 fois supérieure à celle du plasma.",
+            "E": "Il emprunte les transporteurs du Calcium et du Fer."
+        },
+        "correctes": ["A", "B", "D", "E"],
+        "explication": "C est Faux : Il se fixe aux HÉMATIES (globules rouges)."
+    },
+    {
+        "titre": "Distribution et Stockage du Plomb :",
+        "type": "vraies",
+        "items": {
+            "A": "95% de la charge corporelle se trouve dans le squelette.",
+            "B": "La demi-vie dans l'os cortical est d'environ 1 mois.",
+            "C": "La demi-vie dans l'os cortical est d'environ 9,5 ans.",
+            "D": "Il s'accumule aussi dans le foie, les reins et le SNC.",
+            "E": "La concentration osseuse diminue avec l'âge."
+        },
+        "correctes": ["A", "C", "D"],
+        "explication": "B est Faux. E est Faux : La concentration augmente jusqu'à 50-60 ans."
+    },
+    {
+        "titre": "Mécanisme toxique sur l'Hème (Toxicodynamie) :",
+        "type": "vraies",
+        "items": {
+            "A": "Il inhibe l'ALA déshydratase.",
+            "B": "Il inhibe la Ferrochélatase.",
+            "C": "Cela entraîne une augmentation de l'ALA dans les urines.",
+            "D": "Cela entraîne une augmentation de la Zinc-Protoporphyrine (PPZ).",
+            "E": "Il stimule la synthèse de la globine."
+        },
+        "correctes": ["A", "B", "C", "D"],
+        "explication": "E est Faux : Il DIMINUE la synthèse de la globine."
+    },
+    {
+        "titre": "Conséquences hématologiques du Saturnisme :",
+        "type": "vraies",
+        "items": {
+            "A": "Anémie normochrome normocytaire.",
+            "B": "Caractère régénératif (augmentation des réticulocytes).",
+            "C": "Diminution de la durée de vie des hématies.",
+            "D": "Présence de granulations basophiles dans les hématies.",
+            "E": "Inhibition de la pyrimidine 5' nucléotidase."
+        },
+        "correctes": ["A", "B", "C", "D", "E"],
+        "explication": "Tableau hématologique complet du saturnisme."
+    },
+    {
+        "titre": "Symptômes neurologiques de l'intoxication chronique :",
+        "type": "vraies",
+        "items": {
+            "A": "Chez l'enfant : baisse de QI dès 100 µg/L.",
+            "B": "Chez l'enfant : encéphalopathie (coma, convulsions) si > 1000 µg/L.",
+            "C": "Chez l'adulte : neuropathie périphérique motrice.",
+            "D": "Chez l'adulte : paralysie des muscles fléchisseurs.",
+            "E": "Chez l'adulte : paralysie des muscles extenseurs."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "D est Faux : C'est une paralysie des EXTENSEURS (chute du poignet)."
+    },
+    {
+        "titre": "Atteinte rénale du Plomb :",
+        "type": "vraies",
+        "items": {
+            "A": "L'atteinte précoce est une tubulopathie proximale.",
+            "B": "L'atteinte précoce est irréversible.",
+            "C": "Signes précoces : glycosurie, hypercalciurie, protéinurie.",
+            "D": "L'atteinte tardive est une néphropathie tubulo-interstitielle chronique.",
+            "E": "L'atteinte tardive comprend atrophie glomérulaire et fibrose."
+        },
+        "correctes": ["A", "C", "D", "E"],
+        "explication": "B est Faux : L'atteinte précoce est réversible à l'arrêt de l'exposition."
+    },
+    {
+        "titre": "Autres effets toxiques (Cardio, Digestif, Cancer) :",
+        "type": "vraies",
+        "items": {
+            "A": "Hypertension artérielle paroxystique.",
+            "B": "Coliques de plomb (douleurs abdominales).",
+            "C": "Diminution du périmètre thoracique chez l'enfant.",
+            "D": "Classé groupe 1 (cancérogène certain) par le CIRC.",
+            "E": "Classé groupe 2A (probablement cancérogène) par le CIRC."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "D est Faux : Les dérivés inorganiques sont classés 2A."
+    },
+    {
+        "titre": "Intoxication aiguë (Rare) :",
+        "type": "vraies",
+        "items": {
+            "A": "Douleurs abdominales intenses (coliques) et vomissements.",
+            "B": "Hémolyse.",
+            "C": "Cytolyse hépatique.",
+            "D": "Insuffisance rénale aiguë (tubulaire).",
+            "E": "Décès par collapsus cardio-vasculaire."
+        },
+        "correctes": ["A", "B", "C", "D", "E"],
+        "explication": "Tableau clinique de l'intoxication aiguë massive."
+    },
+    {
+        "titre": "Réglementation et Déclaration :",
+        "type": "vraies",
+        "items": {
+            "A": "Le saturnisme infantile est une maladie à déclaration obligatoire.",
+            "B": "Le seuil de déclaration est de 100 µg/L.",
+            "C": "Le seuil de déclaration a été abaissé à 50 µg/L en 2014.",
+            "D": "Il existe un seuil de vigilance à 25 µg/L.",
+            "E": "La VLEP est de 0,1 mg/m3."
+        },
+        "correctes": ["A", "C", "D", "E"],
+        "explication": "B est Faux : L'ancien seuil était 100, le nouveau est 50 µg/L."
+    },
+    {
+        "titre": "Indicateurs biologiques d'exposition :",
+        "type": "vraies",
+        "items": {
+            "A": "Le dosage de référence est la plombémie (sang total).",
+            "B": "La plomburie provoquée est un excellent indicateur.",
+            "C": "Dosage de l'ALA urinaire (N < 4 mg/g créatinine).",
+            "D": "Dosage de la PPZ érythrocytaire (N < 3 µg/g Hb).",
+            "E": "Analyses par SAA-F ou ICP-MS."
+        },
+        "correctes": ["A", "C", "D", "E"],
+        "explication": "B est Faux : C'est un indicateur MÉDIOCRE."
+    },
+    {
+        "titre": "Traitement chélateur si plombémie > 1000 µg/L :",
+        "type": "vraies",
+        "items": {
+            "A": "Traitement à domicile.",
+            "B": "Traitement d'urgence à l'hôpital.",
+            "C": "Utilisation de DMSA seul.",
+            "D": "Association BAL (IM) + EDTA (IV).",
+            "E": "Nécessite une hyperhydratation."
+        },
+        "correctes": ["B", "D", "E"],
+        "explication": "C'est le schéma pour les intoxications massives ou encéphalopathies."
+    },
+    {
+        "titre": "Traitement chélateur si plombémie entre 700 et 1000 µg/L :",
+        "type": "vraies",
+        "items": {
+            "A": "Association EDTA + DMSA.",
+            "B": "Traitement à l'hôpital.",
+            "C": "Traitement ambulatoire simple.",
+            "D": "5 cures sont nécessaires.",
+            "E": "Hyperhydratation nécessaire."
+        },
+        "correctes": ["A", "B", "D", "E"],
+        "explication": "Protocole lourd nécessitant une hospitalisation."
+    },
+    {
+        "titre": "Traitement chélateur si plombémie entre 450 et 700 µg/L :",
+        "type": "vraies",
+        "items": {
+            "A": "Traitement par DMSA seul.",
+            "B": "Traitement par EDTA IV.",
+            "C": "Administration orale.",
+            "D": "Peut se faire à domicile (HAD).",
+            "E": "3 cures sont nécessaires."
+        },
+        "correctes": ["A", "C", "D", "E"],
+        "explication": "Dans cette tranche, on passe au DMSA oral, possible à domicile."
+    },
+    {
+        "titre": "Traitement si plombémie entre 250 et 450 µg/L :",
+        "type": "vraies",
+        "items": {
+            "A": "Chélation systématique.",
+            "B": "Ce n'est pas une indication habituelle de chélation.",
+            "C": "Chélation si la plombémie stagne malgré l'éviction de la source.",
+            "D": "Chélation si anémie microcytaire persistante.",
+            "E": "Surveillance simple si baisse spontanée."
+        },
+        "correctes": ["B", "C", "D", "E"],
+        "explication": "La priorité est l'enquête environnementale. On ne traite chimiquement que si ça ne suffit pas."
+    },
+    {
+        "titre": "Propriétés du BAL (Dimercaprol) :",
+        "type": "vraies",
+        "items": {
+            "A": "Plus ancien chélateur (anti-lewisite).",
+            "B": "S'administre par voie orale.",
+            "C": "S'administre par injection intramusculaire (IM).",
+            "D": "Peut causer HTA et tachycardie.",
+            "E": "Peut causer des brûlures des muqueuses."
+        },
+        "correctes": ["A", "C", "D", "E"],
+        "explication": "B est Faux : Uniquement en IM douloureuse."
+    },
+    {
+        "titre": "Prévention et mesures hygiéno-diététiques :",
+        "type": "vraies",
+        "items": {
+            "A": "Détection des peintures au plomb (> 1 mg/cm²).",
+            "B": "Couper les ongles des enfants.",
+            "C": "Lavage fréquent des mains.",
+            "D": "Nettoyage des sols à sec (balai).",
+            "E": "Nettoyage des surfaces avec un linge humide."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "D est Faux : Le balayage à sec remet les poussières de plomb en suspension, il faut un nettoyage humide."
+    },
+    {
+        "titre": "Doses limites hebdomadaires (OMS) :",
+        "type": "vraies",
+        "items": {
+            "A": "25 µg/kg de poids corporel.",
+            "B": "Soit environ 1750 µg/semaine pour un adulte de 70 kg.",
+            "C": "En France, l'apport alimentaire moyen est de 4000 µg/semaine.",
+            "D": "En France, l'apport alimentaire moyen est d'environ 400 µg/semaine.",
+            "E": "L'exposition alimentaire est négligeable."
+        },
+        "correctes": ["A", "B", "D"],
+        "explication": "C et E sont Faux : L'apport alimentaire existe (57 µg/jour) et n'est pas négligeable."
+    },
+    {
+        "titre": "Méthodes d'analyse du Plomb :",
+        "type": "vraies",
+        "items": {
+            "A": "SAA-F (Absorption Atomique Flamme).",
+            "B": "ICP-MS (Torche à plasma couplée masse).",
+            "C": "Le prélèvement atmosphérique se fait sur filtre quartz.",
+            "D": "Le dosage sanguin se fait sur plasma.",
+            "E": "Le dosage sanguin se fait sur sang total."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "D est Faux : Sang total car le plomb est dans les hématies."
+    },
+    {
+        "titre": "Élimination du Plomb :",
+        "type": "vraies",
+        "items": {
+            "A": "La phase rapide concerne le plomb non fixé.",
+            "B": "La phase très lente concerne le plomb osseux (années).",
+            "C": "L'élimination urinaire est majoritaire (75%).",
+            "D": "L'élimination digestive est majoritaire.",
+            "E": "La filtration glomérulaire est le mécanisme rénal."
+        },
+        "correctes": ["A", "B", "C", "E"],
+        "explication": "D est Faux : La voie digestive ne représente que la fraction non absorbée (0,5%)."
+    }
+]
+
 
 # --- INITIALISATION DES ETATS (Session State) ---
 if 'quiz_started' not in st.session_state:
@@ -4351,8 +5140,8 @@ if not st.session_state.quiz_started:
         with col_mixte:
             st.info("🌍 **Mixte UE2 Global**")
             if st.button("Tout l'UE2", key="btn_ue2_mixte", use_container_width=True):
-                # On concatène (fusionne) les deux listes pour le mode mixte
-                pool_global = questions_ue2 + questions_toxiques
+                # On ajoute les nouvelles listes au pool global
+                pool_global = questions_ue2 + questions_toxiques + questions_ethers + questions_chlores + questions_plomb
                 demarrer_partie(pool_global, "Mixte Santé Environnement (Tout)")
 
         st.write("---")
@@ -4380,13 +5169,33 @@ if not st.session_state.quiz_started:
                 demarrer_partie(questions_ue2[30:], "Spécial Dioxines")
         
         st.write("")
-        # Ligne 2 : Le nouveau thème Environnement/Toxiques
-        col_new1, col_new2, col_new3 = st.columns([1, 2, 1]) # Centré
-        with col_new2:
+        st.subheader("☣️ Toxicologie Environnementale")
+        # Ligne 2 : Les Toxiques
+        col_new1, col_new2, col_new3, col_new4 = st.columns(4) # On passe à 4 colonnes
+        
+        with col_new1:
             st.error("☢️ **Solvants & Métaux**")
-            st.caption("Méthanol, Éthylène Glycol, Plomb")
-            if st.button("Lancer Toxiques Environnement", key="btn_tox_env", use_container_width=True):
-                demarrer_partie(questions_toxiques, "Spécial Solvants & Plomb")
+            st.caption("Méthanol, EG") 
+            if st.button("Lancer Alcools Tox", key="btn_tox_env", use_container_width=True):
+                demarrer_partie(questions_toxiques, "Spécial Solvants (Méthanol/EG)")
+        
+        with col_new2:
+            st.warning("🧪 **Éthers de Glycol**")
+            st.caption("Séries E/P, Toxicité")
+            if st.button("Lancer Éthers", key="btn_ethers", use_container_width=True):
+                demarrer_partie(questions_ethers, "Spécial Éthers de Glycol")
+
+        with col_new3:
+            st.success("🧽 **Solvants Chlorés**")
+            st.caption("Trichlo, CCl4, Vinyle")
+            if st.button("Lancer Chlorés", key="btn_chlores", use_container_width=True):
+                demarrer_partie(questions_chlores, "Spécial Solvants Chlorés")
+
+        with col_new4:
+            st.error("🏗️ **Le Plomb**") # Nouveau bouton spécifique
+            st.caption("Saturnisme, Chélation")
+            if st.button("Lancer Plomb", key="btn_plomb", use_container_width=True):
+                demarrer_partie(questions_plomb, "Spécial Plomb & Saturnisme")
     # --- PAGE 3 : HYDROLOGIE ---
     elif st.session_state.page_active == "UE3 : Hydrologie":
         
@@ -4584,8 +5393,10 @@ else:
                     elif "PFAS" in st.session_state.titre_mode: pool = questions_ue2[10:20]
                     elif "Pesticides" in st.session_state.titre_mode: pool = questions_ue2[20:30]
                     elif "Dioxines" in st.session_state.titre_mode: pool = questions_ue2[30:]
-                    elif "Solvants" in st.session_state.titre_mode: pool = questions_toxiques
-                    else: pool = questions_ue2 + questions_toxiques
+                    elif "Solvants & Plomb" in st.session_state.titre_mode: pool = questions_toxiques
+                    elif "Éthers" in st.session_state.titre_mode: pool = questions_ethers
+                    elif "Chlorés" in st.session_state.titre_mode: pool = questions_chlores
+                    else: pool = questions_ue2 + questions_toxiques + questions_ethers + questions_chlores
 
                 elif st.session_state.page_active == "UE3 : Hydrologie":
                     if "Généralités" in st.session_state.titre_mode: pool = questions_hydro[:20]
